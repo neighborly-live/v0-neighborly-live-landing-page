@@ -1,11 +1,12 @@
 import { Card } from "@/components/ui/card"
+import { BackgroundCheckFlowchart } from "./background-check-flowchart"
 
 const steps = [
   {
     number: "01",
     title: "Driver Gets Verified",
     description: "Drivers complete background checks and receive their unique QR code to share with potential riders.",
-    image: "/driver-verification-and-background-check-process.jpg",
+    useFlowchart: true,
   },
   {
     number: "02",
@@ -46,14 +47,18 @@ export function HowItWorks() {
               className={`flex flex-col ${index % 2 === 0 ? "lg:flex-row" : "lg:flex-row-reverse"} gap-12 items-center`}
             >
               <div className="flex-1">
-                <div className="text-6xl font-bold text-primary/20 mb-4">{step.number}</div>
+                <div className="text-6xl font-bold text-primary/30 mb-4">{step.number}</div>
                 <h3 className="text-3xl font-bold mb-4">{step.title}</h3>
-                <p className="text-lg text-muted-foreground leading-relaxed">{step.description}</p>
+                <p className="text-xl text-foreground/80 leading-relaxed max-w-xl">{step.description}</p>
               </div>
               <div className="flex-1">
-                <Card className="overflow-hidden">
-                  <img src={step.image || "/placeholder.svg"} alt={step.title} className="w-full h-auto" />
-                </Card>
+                {step.useFlowchart ? (
+                  <BackgroundCheckFlowchart />
+                ) : (
+                  <Card className="overflow-hidden">
+                    <img src={step.image || "/placeholder.svg"} alt={step.title} className="w-full h-auto" />
+                  </Card>
+                )}
               </div>
             </div>
           ))}
