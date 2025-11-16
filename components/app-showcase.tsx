@@ -13,7 +13,6 @@ export function AppShowcase() {
               {[
                 "Multiple tribe memberships for more options",
                 "Real-time driver availability",
-                "Secure in-app messaging",
                 "Ride history and receipts",
                 "Rate and review your experience",
               ].map((item, index) => (
@@ -34,7 +33,11 @@ export function AppShowcase() {
             </ul>
           </div>
           <div className="relative">
-            <img src="/mobile-app-screens-showing-driver-tribes-and-ride-.jpg" alt="App Screenshots" className="rounded-2xl shadow-2xl" />
+            <img
+              src="/mobile-app-screens-showing-driver-tribes-and-ride-.jpg"
+              alt="App Screenshots"
+              className="rounded-2xl shadow-2xl"
+            />
           </div>
         </div>
       </div>
