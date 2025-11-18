@@ -63,7 +63,7 @@ export default function Careers() {
             </p>
 
             <div className="space-y-4">
-              <div className="border border-border p-6 rounded-lg hover:border-primary transition-colors">
+              <div className="border border-gray-200 p-6 rounded-lg hover:border-primary transition-colors">
                 <div className="flex justify-between items-start mb-2">
                   <h3 className="text-xl font-semibold">Senior Full-Stack Engineer</h3>
                   <span className="text-sm bg-primary/10 text-primary px-3 py-1 rounded-full">Engineering</span>
@@ -75,7 +75,7 @@ export default function Careers() {
                 </p>
               </div>
 
-              <div className="border border-border p-6 rounded-lg hover:border-primary transition-colors">
+              <div className="border border-gray-200 p-6 rounded-lg hover:border-primary transition-colors">
                 <div className="flex justify-between items-start mb-2">
                   <h3 className="text-xl font-semibold">Product Designer</h3>
                   <span className="text-sm bg-primary/10 text-primary px-3 py-1 rounded-full">Design</span>
@@ -87,7 +87,7 @@ export default function Careers() {
                 </p>
               </div>
 
-              <div className="border border-border p-6 rounded-lg hover:border-primary transition-colors">
+              <div className="border border-gray-200 p-6 rounded-lg hover:border-primary transition-colors">
                 <div className="flex justify-between items-start mb-2">
                   <h3 className="text-xl font-semibold">Community Operations Manager</h3>
                   <span className="text-sm bg-primary/10 text-primary px-3 py-1 rounded-full">Operations</span>
@@ -99,7 +99,7 @@ export default function Careers() {
                 </p>
               </div>
 
-              <div className="border border-border p-6 rounded-lg hover:border-primary transition-colors">
+              <div className="border border-gray-200 p-6 rounded-lg hover:border-primary transition-colors">
                 <div className="flex justify-between items-start mb-2">
                   <h3 className="text-xl font-semibold">Marketing Manager</h3>
                   <span className="text-sm bg-primary/10 text-primary px-3 py-1 rounded-full">Marketing</span>

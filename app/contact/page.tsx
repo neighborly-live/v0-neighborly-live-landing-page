@@ -123,7 +123,7 @@ export default function Contact() {
           </div>
 
           <div>
-            <div className="bg-muted/30 p-6 rounded-lg border border-border">
+            <div className="bg-muted/30 p-6 rounded-lg border border-gray-200">
               <h2 className="text-2xl font-semibold mb-4">Send us a Message</h2>
               <form onSubmit={handleSubmit} className="space-y-4">
                 <div>
@@ -137,7 +137,7 @@ export default function Contact() {
                     value={formData.name}
                     onChange={handleChange}
                     required
-                    className="w-full px-4 py-2 rounded-lg border border-border bg-background focus:outline-none focus:ring-2 focus:ring-primary"
+                    className="w-full px-4 py-2 rounded-lg border border-gray-200 bg-background focus:outline-none focus:ring-2 focus:ring-primary"
                     placeholder="Your name"
                   />
                 </div>
@@ -153,7 +153,7 @@ export default function Contact() {
                     value={formData.email}
                     onChange={handleChange}
                     required
-                    className="w-full px-4 py-2 rounded-lg border border-border bg-background focus:outline-none focus:ring-2 focus:ring-primary"
+                    className="w-full px-4 py-2 rounded-lg border border-gray-200 bg-background focus:outline-none focus:ring-2 focus:ring-primary"
                     placeholder="your@email.com"
                   />
                 </div>
@@ -168,7 +168,7 @@ export default function Contact() {
                     value={formData.subject}
                     onChange={handleChange}
                     required
-                    className="w-full px-4 py-2 rounded-lg border border-border bg-background focus:outline-none focus:ring-2 focus:ring-primary"
+                    className="w-full px-4 py-2 rounded-lg border border-gray-200 bg-background focus:outline-none focus:ring-2 focus:ring-primary"
                   >
                     <option value="">Select a subject</option>
                     <option value="general">General Inquiry</option>
@@ -191,7 +191,7 @@ export default function Contact() {
                     onChange={handleChange}
                     required
                     rows={5}
-                    className="w-full px-4 py-2 rounded-lg border border-border bg-background focus:outline-none focus:ring-2 focus:ring-primary resize-none"
+                    className="w-full px-4 py-2 rounded-lg border border-gray-200 bg-background focus:outline-none focus:ring-2 focus:ring-primary resize-none"
                     placeholder="Tell us how we can help..."
                   />
                 </div>
@@ -216,7 +216,7 @@ export default function Contact() {
           </div>
         </div>
 
-        <div className="border-t border-border pt-8">
+        <div className="border-t border-gray-200 pt-8">
           <h2 className="text-2xl font-semibold mb-4">Frequently Asked Questions</h2>
           <div className="space-y-4">
             <div>
