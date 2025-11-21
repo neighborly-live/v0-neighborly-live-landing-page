@@ -14,13 +14,23 @@ export function Hero() {
           </p>
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-16">
-            <Button size="lg" className="bg-primary text-primary-foreground hover:bg-primary/90 w-full sm:w-auto" asChild>
+            <Button
+              size="lg"
+              className="bg-primary text-primary-foreground hover:bg-primary/90 w-full sm:w-auto"
+              asChild
+            >
               <a href="https://apps.apple.com/app/neighborly/id6749149630" target="_blank" rel="noopener noreferrer">
                 Download on App Store
               </a>
             </Button>
-            <Button size="lg" variant="outline" className="w-full sm:w-auto bg-transparent">
-              Get it on Google Play
+            <Button size="lg" variant="outline" className="w-full sm:w-auto bg-transparent" asChild>
+              <a
+                href="https://play.google.com/store/apps/details?id=com.neighborly.app"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Get it on Google Play
+              </a>
             </Button>
           </div>
 
