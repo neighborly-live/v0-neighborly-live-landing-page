@@ -1,27 +1,20 @@
 import Link from "next/link"
-import Image from "next/image"
 
 export function Footer() {
   return (
     <footer className="border-t border-gray-200 py-12 px-4 sm:px-6 lg:px-8">
       <div className="container mx-auto">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
-          <div>
-            <div className="flex items-center gap-2 mb-4">
-              <Image 
-                src="/logo.png" 
-                alt="Neighborly Logo" 
-                width={32} 
-                height={32}
-                className="rounded-lg"
-              />
-              <span className="font-bold text-xl">Neighborly</span>
-            </div>
-            <p className="text-muted-foreground text-sm leading-relaxed">
-              Trust-based ride sharing for connected communities.
-            </p>
+        <div className="mb-8">
+          <div className="flex items-center gap-2 mb-4">
+            <img src="/logo.png" alt="Neighborly Logo" width={32} height={32} className="rounded-lg" />
+            <span className="font-bold text-xl">Neighborly</span>
           </div>
+          <p className="text-muted-foreground text-sm leading-relaxed max-w-xs">
+            Trust-based ride sharing for connected communities.
+          </p>
+        </div>
 
+        <div className="grid grid-cols-3 gap-8 mb-8">
           <div>
             <h3 className="font-semibold mb-4">Product</h3>
             <ul className="space-y-2">
@@ -88,12 +81,20 @@ export function Footer() {
                   Safety Guidelines
                 </Link>
               </li>
+              <li>
+                <Link
+                  href="/sms-terms"
+                  className="text-sm text-muted-foreground hover:text-foreground transition-colors"
+                >
+                  SMS Terms
+                </Link>
+              </li>
             </ul>
           </div>
         </div>
 
         <div className="border-t border-gray-200 pt-8 flex flex-col sm:flex-row justify-between items-center gap-4">
-          <p className="text-sm text-muted-foreground">© 2025 Neighborly. All rights reserved.</p>
+          <p className="text-sm text-muted-foreground">© 2026 Neighborly. All rights reserved.</p>
           <div className="flex gap-6">
             <Link href="#" className="text-muted-foreground hover:text-foreground transition-colors">
               <span className="sr-only">Twitter</span>

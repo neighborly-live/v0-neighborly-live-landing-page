@@ -1,8 +1,4 @@
-"use client"
-
-import { Button } from "@/components/ui/button"
 import Link from "next/link"
-import Image from "next/image"
 
 export function Header() {
   return (
@@ -10,14 +6,15 @@ export function Header() {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <Link href="/" className="flex items-center gap-2">
-            <Image 
-              src="/logo.png" 
-              alt="Neighborly Logo" 
-              width={40} 
-              height={40}
-              className="rounded-lg"
-            />
-            <span className="font-bold text-xl">Neighborly</span>
+            <span className="flex items-center justify-center w-10 h-10 rounded-lg overflow-hidden bg-primary/10">
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img 
+                src="/logo.png" 
+                alt="Neighborly Logo"
+                className="w-full h-full object-cover"
+              />
+            </span>
+            <span className="font-bold text-2xl">Neighborly</span>
           </Link>
 
           <nav className="hidden md:flex items-center gap-8">
@@ -31,12 +28,6 @@ export function Header() {
               Testimonials
             </Link>
           </nav>
-
-          <div className="flex items-center gap-3">
-            <Button size="sm" className="bg-primary text-primary-foreground hover:bg-primary/90">
-              Download App
-            </Button>
-          </div>
         </div>
       </div>
     </header>

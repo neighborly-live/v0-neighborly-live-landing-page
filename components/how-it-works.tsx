@@ -18,7 +18,7 @@ const steps = [
     number: "03",
     title: "Book Your Ride",
     description:
-      "Schedule a ride and select from drivers in your tribes. They'll receive a notification to accept or decline.",
+      "Book a ride from a driver tribe that you belong to. As a rider, you have the flexibility to be part of more than one tribe.",
     image: "/booking-ride-with-trusted-driver-from-tribe.jpg",
   },
   {
