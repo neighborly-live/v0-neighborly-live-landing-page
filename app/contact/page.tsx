@@ -90,7 +90,7 @@ export default function Contact() {
                 <a href="tel:+12818493110" className="text-primary hover:underline">
                   (281) 849-3110
                 </a>
-                <p className="text-sm text-muted-foreground mt-1">Monday - Friday, 9am - 6pm CST</p>
+                <p className="text-sm text-muted-foreground mt-1">Monday - Friday, 9am - 6pm Central Time</p>
               </div>
 
               <div className="bg-muted/50 p-4 rounded-lg">
