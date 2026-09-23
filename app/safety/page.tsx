@@ -90,30 +90,31 @@ export default function SafetyGuidelines() {
           </section>
 
           <section>
-            <h2 className="text-2xl font-semibold mb-4">In-App Safety Features</h2>
+            <h2 className="text-2xl font-semibold mb-4">Safety Resources in the App</h2>
 
-            <h3 className="text-xl font-semibold mb-3 mt-6">Emergency Assistance</h3>
+            <h3 className="text-xl font-semibold mb-3 mt-6">Help &amp; Safety Center</h3>
             <p className="text-foreground/90 leading-relaxed mb-4">
-              Access emergency services directly through the app with one tap. Your location and trip details are
-              automatically shared with emergency responders.
+              Every account has access to an in-app Help &amp; Safety Center with safety guidance and a one-tap
+              "Contact Support" button that opens an email to our support team.
             </p>
 
-            <h3 className="text-xl font-semibold mb-3 mt-6">Trip Sharing</h3>
+            <h3 className="text-xl font-semibold mb-3 mt-6">Share Your Trip</h3>
             <p className="text-foreground/90 leading-relaxed mb-4">
-              Share your real-time location and trip details with trusted contacts. They can follow your journey and
-              receive notifications when you arrive safely.
+              Before you get in the car, share your driver's name, vehicle details, and trip plans with a friend or
+              family member using your phone's messaging apps.
             </p>
 
-            <h3 className="text-xl font-semibold mb-3 mt-6">Two-Way Ratings</h3>
+            <h3 className="text-xl font-semibold mb-3 mt-6">Ratings &amp; Feedback</h3>
             <p className="text-foreground/90 leading-relaxed mb-4">
-              Both riders and drivers rate each other after trips. Low ratings trigger safety reviews and may result in
-              account suspension.
+              After a trip, riders can rate their driver and submit feedback. Neighborly may review reported concerns
+              and take appropriate account action.
             </p>
 
-            <h3 className="text-xl font-semibold mb-3 mt-6">24/7 Support</h3>
+            <h3 className="text-xl font-semibold mb-3 mt-6">Safety Team Support</h3>
             <p className="text-foreground/90 leading-relaxed">
-              Our safety team is available around the clock to respond to incidents, investigate reports, and provide
-              assistance.
+              For immediate danger, always call 911 first. The in-app Help &amp; Safety Center is available anytime,
+              and our safety team reviews and responds to reports during business hours (Monday - Friday, 9am - 6pm
+              Central Time).
             </p>
           </section>
 
@@ -137,10 +138,21 @@ export default function SafetyGuidelines() {
             <h3 className="text-xl font-semibold mb-3 mt-6">How to Report</h3>
             <p className="text-foreground/90 leading-relaxed mb-4">Report safety issues immediately through:</p>
             <ul className="list-disc pl-6 space-y-2 text-foreground/90">
-              <li>In-app emergency button during active rides</li>
-              <li>Trip history report feature after ride completion</li>
-              <li>24/7 safety hotline: [Safety Hotline Number]</li>
-              <li>Email: support@neighborly.live</li>
+              <li>The in-app Help &amp; Safety Center ("Contact Support")</li>
+              <li>Your post-ride rating and feedback</li>
+              <li>
+                Safety line:{" "}
+                <a href="tel:+12818493110" className="text-primary hover:underline">
+                  (281) 849-3110
+                </a>{" "}
+                (Monday - Friday, 9am - 6pm Central Time)
+              </li>
+              <li>
+                Email:{" "}
+                <a href="mailto:support@neighborly.live" className="text-primary hover:underline">
+                  support@neighborly.live
+                </a>
+              </li>
             </ul>
 
             <h3 className="text-xl font-semibold mb-3 mt-6">What Happens Next</h3>
@@ -201,16 +213,29 @@ export default function SafetyGuidelines() {
                 <p className="text-foreground/90">Call 911 for immediate emergencies</p>
               </div>
               <div>
-                <p className="font-semibold text-foreground mb-1">Neighborly Safety Hotline</p>
-                <p className="text-foreground/90">[24/7 Safety Number]</p>
+                <p className="font-semibold text-foreground mb-1">Neighborly Safety Line</p>
+                <p className="text-foreground/90">
+                  <a href="tel:+12818493110" className="text-primary hover:underline">
+                    (281) 849-3110
+                  </a>{" "}
+                  (Monday - Friday, 9am - 6pm Central Time)
+                </p>
               </div>
               <div>
                 <p className="font-semibold text-foreground mb-1">Safety Email</p>
-                <p className="text-foreground/90">support@neighborly.live</p>
+                <p className="text-foreground/90">
+                  <a href="mailto:support@neighborly.live" className="text-primary hover:underline">
+                    support@neighborly.live
+                  </a>
+                </p>
               </div>
               <div>
                 <p className="font-semibold text-foreground mb-1">General Support</p>
-                <p className="text-foreground/90">support@neighborly.live</p>
+                <p className="text-foreground/90">
+                  <a href="mailto:support@neighborly.live" className="text-primary hover:underline">
+                    support@neighborly.live
+                  </a>
+                </p>
               </div>
             </div>
           </section>
@@ -219,8 +244,8 @@ export default function SafetyGuidelines() {
             <h2 className="text-2xl font-semibold mb-4">Remember</h2>
             <p className="text-foreground/90 leading-relaxed">
               Your safety is paramount. Trust your instincts. If something doesn't feel right, it probably isn't. Don't
-              hesitate to cancel a ride, end a trip early, or contact emergency services. We're here to support you
-              24/7.
+              hesitate to cancel a ride, end a trip early, or contact emergency services. The in-app Help &amp; Safety
+              Center is available anytime, and our team is ready to help during business hours.
             </p>
           </section>
         </div>

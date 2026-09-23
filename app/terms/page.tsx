@@ -3,7 +3,7 @@ export default function TermsOfService() {
     <div className="min-h-screen bg-background">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-16 max-w-4xl">
         <h1 className="text-4xl font-bold mb-8">Terms of Service</h1>
-        <p className="text-muted-foreground mb-8">Last updated: January 2025</p>
+        <p className="text-muted-foreground mb-8">Last updated: September 2026</p>
 
         <div className="prose prose-slate max-w-none space-y-8">
           <section>
@@ -86,7 +86,10 @@ export default function TermsOfService() {
               <li>Riders request rides through the app, selecting from their tribe drivers</li>
               <li>Drivers have sole discretion to accept or decline ride requests</li>
               <li>Accepted rides create a binding commitment for both parties</li>
-              <li>Cancellations may result in fees as outlined in our cancellation policy</li>
+              <li>
+                Cancellations made after a driver has accepted a ride may result in a cancellation fee, which will be
+                disclosed in the app before you confirm the cancellation
+              </li>
               <li>Drivers must complete accepted rides unless safety concerns arise</li>
             </ul>
           </section>
@@ -200,8 +203,10 @@ export default function TermsOfService() {
           <section>
             <h2 className="text-2xl font-semibold mb-4">14. Governing Law</h2>
             <p className="text-foreground/90 leading-relaxed">
-              These terms are governed by the laws of [Your State/Country], without regard to conflict of law
-              provisions.
+              These terms are governed by the laws of the State of Texas, USA, without regard to conflict of law
+              provisions. This applies regardless of your state, country, or territory of residence or the location
+              from which you access or use the platform, except to the extent that mandatory consumer protection or
+              other local laws of your jurisdiction cannot be waived and apply notwithstanding this choice of law.
             </p>
           </section>
 
