@@ -110,10 +110,11 @@ export default function SafetyGuidelines() {
               account suspension.
             </p>
 
-            <h3 className="text-xl font-semibold mb-3 mt-6">24/7 Support</h3>
+            <h3 className="text-xl font-semibold mb-3 mt-6">Safety Team Support</h3>
             <p className="text-foreground/90 leading-relaxed">
-              Our safety team is available around the clock to respond to incidents, investigate reports, and provide
-              assistance.
+              The in-app emergency button and trip-sharing features are available 24/7. Our safety team reviews and
+              responds to reports during business hours (Monday - Friday, 9am - 6pm CST). For immediate danger,
+              always call 911 first.
             </p>
           </section>
 
@@ -137,9 +138,9 @@ export default function SafetyGuidelines() {
             <h3 className="text-xl font-semibold mb-3 mt-6">How to Report</h3>
             <p className="text-foreground/90 leading-relaxed mb-4">Report safety issues immediately through:</p>
             <ul className="list-disc pl-6 space-y-2 text-foreground/90">
-              <li>In-app emergency button during active rides</li>
+              <li>In-app emergency button during active rides (available 24/7)</li>
               <li>Trip history report feature after ride completion</li>
-              <li>24/7 safety hotline: [Safety Hotline Number]</li>
+              <li>Safety line: (281) 849-3110 (Monday - Friday, 9am - 6pm CST)</li>
               <li>Email: support@neighborly.live</li>
             </ul>
 
@@ -201,8 +202,8 @@ export default function SafetyGuidelines() {
                 <p className="text-foreground/90">Call 911 for immediate emergencies</p>
               </div>
               <div>
-                <p className="font-semibold text-foreground mb-1">Neighborly Safety Hotline</p>
-                <p className="text-foreground/90">[24/7 Safety Number]</p>
+                <p className="font-semibold text-foreground mb-1">Neighborly Safety Line</p>
+                <p className="text-foreground/90">(281) 849-3110 (Monday - Friday, 9am - 6pm CST)</p>
               </div>
               <div>
                 <p className="font-semibold text-foreground mb-1">Safety Email</p>
@@ -219,8 +220,8 @@ export default function SafetyGuidelines() {
             <h2 className="text-2xl font-semibold mb-4">Remember</h2>
             <p className="text-foreground/90 leading-relaxed">
               Your safety is paramount. Trust your instincts. If something doesn't feel right, it probably isn't. Don't
-              hesitate to cancel a ride, end a trip early, or contact emergency services. We're here to support you
-              24/7.
+              hesitate to cancel a ride, end a trip early, or contact emergency services. Our in-app safety tools are
+              available 24/7, and our team is ready to help during business hours.
             </p>
           </section>
         </div>
