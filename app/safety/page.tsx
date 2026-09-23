@@ -106,8 +106,8 @@ export default function SafetyGuidelines() {
 
             <h3 className="text-xl font-semibold mb-3 mt-6">Ratings &amp; Feedback</h3>
             <p className="text-foreground/90 leading-relaxed mb-4">
-              Riders rate their driver after every trip. Our safety team monitors ratings and feedback and may review
-              or suspend a driver's account when concerns are reported.
+              After a trip, riders can rate their driver and submit feedback. Neighborly may review reported concerns
+              and take appropriate account action.
             </p>
 
             <h3 className="text-xl font-semibold mb-3 mt-6">Safety Team Support</h3>
