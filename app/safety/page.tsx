@@ -95,7 +95,7 @@ export default function SafetyGuidelines() {
             <h3 className="text-xl font-semibold mb-3 mt-6">Help &amp; Safety Center</h3>
             <p className="text-foreground/90 leading-relaxed mb-4">
               Every account has access to an in-app Help &amp; Safety Center with safety guidance and a one-tap
-              "Contact Support" button that reaches our team directly.
+              "Contact Support" button that opens an email to our support team.
             </p>
 
             <h3 className="text-xl font-semibold mb-3 mt-6">Share Your Trip</h3>
