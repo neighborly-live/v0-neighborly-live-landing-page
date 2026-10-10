@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button"
+import { VideoEmbed } from "@/components/video-embed"
 
 export function Hero() {
   return (
@@ -34,12 +35,13 @@ export function Hero() {
             </Button>
           </div>
 
-          <div className="relative">
-            <div className="absolute inset-0 bg-gradient-to-t from-background via-transparent to-transparent z-10" />
-            <img
-              src="/mobile-app-interface-showing-ride-sharing-with-com.jpg"
-              alt="Neighborly App Interface"
-              className="rounded-2xl shadow-2xl mx-auto max-w-sm"
+          <div className="relative max-w-sm mx-auto">
+            <div className="absolute inset-0 bg-gradient-to-t from-background via-transparent to-transparent z-10 pointer-events-none rounded-3xl" />
+            <VideoEmbed
+              src="https://d2ol7oe51mr4n9.cloudfront.net/user_3HdgMsLyD8aJlayBaUxl564ErCR/2bf869f2-9e76-451e-9d47-43ee20b2a91d.mp4"
+              mode="ambient"
+              preload="auto"
+              className="shadow-2xl"
             />
           </div>
         </div>
