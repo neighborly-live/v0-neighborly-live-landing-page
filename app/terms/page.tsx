@@ -3,7 +3,7 @@ export default function TermsOfService() {
     <div className="min-h-screen bg-background">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-16 max-w-4xl">
         <h1 className="text-4xl font-bold mb-8">Terms of Service</h1>
-        <p className="text-muted-foreground mb-8">Last updated: September 2026</p>
+        <p className="text-muted-foreground mb-8">Last updated: October 2026</p>
 
         <div className="prose prose-slate max-w-none space-y-8">
           <section>
@@ -145,9 +145,14 @@ export default function TermsOfService() {
 
           <section>
             <h2 className="text-2xl font-semibold mb-4">9. Intellectual Property</h2>
-            <p className="text-foreground/90 leading-relaxed">
+            <p className="text-foreground/90 leading-relaxed mb-4">
               All content, trademarks, and intellectual property on the Neighborly platform are owned by Neighborly or
               licensed to us. You may not use, copy, or distribute our intellectual property without written permission.
+            </p>
+            <p className="text-foreground/90 leading-relaxed">
+              Our marketing materials, including website and promotional videos, may feature AI-generated characters
+              and scenarios. These depictions are synthetic and do not represent real Neighborly riders, drivers, or
+              any other actual person. Any resemblance to any real individual is coincidental and unintentional.
             </p>
           </section>
 
