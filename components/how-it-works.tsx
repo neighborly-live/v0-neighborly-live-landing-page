@@ -1,4 +1,5 @@
 import { Card } from "@/components/ui/card"
+import { VideoEmbed } from "@/components/video-embed"
 import { BackgroundCheckFlowchart } from "./background-check-flowchart"
 
 const steps = [
@@ -13,6 +14,7 @@ const steps = [
     title: "Join a Tribe",
     description: "Scan a driver's QR code to join their tribe. You can be part of multiple tribes for more options.",
     image: "/scanning-qr-code-to-join-driver-tribe.jpg",
+    video: "https://d2ol7oe51mr4n9.cloudfront.net/user_3HdgMsLyD8aJlayBaUxl564ErCR/aaf19041-c286-4ec1-8b5b-ab02b0bad942.mp4",
   },
   {
     number: "03",
@@ -20,12 +22,15 @@ const steps = [
     description:
       "Book a ride from a driver tribe that you belong to. As a rider, you have the flexibility to be part of more than one tribe.",
     image: "/booking-ride-with-trusted-driver-from-tribe.jpg",
+    video: "https://d2ol7oe51mr4n9.cloudfront.net/user_3HdgMsLyD8aJlayBaUxl564ErCR/5edc3264-b6a9-4604-9b78-1947342eade0.mp4",
   },
   {
     number: "04",
     title: "Ride & Pay",
     description: "Enjoy your ride with a trusted driver. Pay before or after - whatever works for you.",
     image: "/happy-rider-in-car-with-trusted-driver.jpg",
+    video: "https://d2ol7oe51mr4n9.cloudfront.net/user_3HdgMsLyD8aJlayBaUxl564ErCR/57959e62-7593-4138-adec-61fe4d96a047.mp4",
+    videoRatio: 16 / 9,
   },
 ]
 
@@ -54,6 +59,8 @@ export function HowItWorks() {
               <div className="flex-1">
                 {step.useFlowchart ? (
                   <BackgroundCheckFlowchart />
+                ) : step.video ? (
+                  <VideoEmbed src={step.video} poster={step.image} mode="ambient" ratio={step.videoRatio ?? 9 / 16} />
                 ) : (
                   <Card className="overflow-hidden">
                     <img src={step.image || "/placeholder.svg"} alt={step.title} className="w-full h-auto" />
