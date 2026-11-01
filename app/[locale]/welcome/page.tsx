@@ -5,6 +5,7 @@ import { useTranslations } from "next-intl"
 import { Link, useRouter } from "@/i18n/navigation"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+import { LanguageSwitcher } from "@/components/language-switcher"
 
 export default function WelcomePage() {
   const t = useTranslations("Welcome")
@@ -34,6 +35,9 @@ export default function WelcomePage() {
   return (
     <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-primary/5 via-background to-accent/5 px-4 py-12">
       <div className="w-full max-w-2xl">
+        <div className="flex justify-end mb-4">
+          <LanguageSwitcher />
+        </div>
         <Card className="border-2 text-center">
           <CardHeader className="space-y-4 pb-8">
             <div className="mx-auto w-20 h-20 bg-primary rounded-full flex items-center justify-center">

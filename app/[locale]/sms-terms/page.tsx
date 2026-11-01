@@ -2,6 +2,7 @@ import { useTranslations } from "next-intl"
 import { setRequestLocale } from "next-intl/server"
 import { Link } from "@/i18n/navigation"
 import { Button } from "@/components/ui/button"
+import { LanguageSwitcher } from "@/components/language-switcher"
 
 export default async function SMSTermsPage({
   params,
@@ -21,11 +22,12 @@ function SMSTermsContent() {
     <div className="min-h-screen bg-background">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="max-w-3xl mx-auto">
-          <Link href="/">
-            <Button variant="ghost" className="mb-6">
-              {t("backToHome")}
-            </Button>
-          </Link>
+          <div className="flex items-center justify-between mb-6">
+            <Link href="/">
+              <Button variant="ghost">{t("backToHome")}</Button>
+            </Link>
+            <LanguageSwitcher />
+          </div>
 
           <h1 className="text-4xl font-bold mb-6">{t("title")}</h1>
           <p className="text-muted-foreground mb-8">{t("lastUpdated")}</p>

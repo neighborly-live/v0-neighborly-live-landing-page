@@ -5,6 +5,7 @@ import type React from "react"
 import { useState } from "react"
 import { useTranslations } from "next-intl"
 import { Button } from "@/components/ui/button"
+import { LanguageSwitcher } from "@/components/language-switcher"
 
 const faqKeys = ["becomeDriver", "joinTribe", "payment", "availability"] as const
 
@@ -48,6 +49,9 @@ export default function Contact() {
   return (
     <div className="min-h-screen bg-background">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-16 max-w-4xl">
+        <div className="flex justify-end mb-4">
+          <LanguageSwitcher />
+        </div>
         <h1 className="text-4xl font-bold mb-8">{t("title")}</h1>
         <p className="text-muted-foreground mb-8">{t("subtitle")}</p>
 
