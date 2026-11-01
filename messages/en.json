@@ -3,6 +3,319 @@
     "title": "Neighborly - Trust-Based Ride Sharing",
     "description": "Connect with trusted drivers in your community. Safe, flexible, and built on relationships."
   },
+  "Terms": {
+    "title": "Terms of Service",
+    "lastUpdated": "Last updated: October 2026",
+    "s1": {
+      "heading": "1. Acceptance of Terms",
+      "p1": "By accessing or using Neighborly's mobile application and services, you agree to be bound by these Terms of Service. If you do not agree to these terms, please do not use our platform.",
+      "p2": "These terms constitute a legally binding agreement between you and Neighborly. We reserve the right to modify these terms at any time, and your continued use constitutes acceptance of any changes."
+    },
+    "s2": {
+      "heading": "2. Service Description",
+      "intro": "Neighborly is a trust-based ride-sharing platform that connects riders with verified drivers through community \"tribes.\" Our platform facilitates:",
+      "items": {
+        "i1": "Driver onboarding with background verification",
+        "i2": "QR code-based tribe membership system",
+        "i3": "Ride booking and driver matching within tribes",
+        "i4": "Payment processing and transaction management",
+        "i5": "Communication between riders and drivers"
+      },
+      "outro": "Neighborly acts as a technology platform connecting independent drivers with riders. We do not provide transportation services directly and are not a transportation carrier."
+    },
+    "s3": {
+      "heading": "3. User Eligibility",
+      "s1Heading": "3.1 General Requirements",
+      "s1Items": {
+        "i1": "You must be at least 18 years of age",
+        "i2": "You must provide accurate and complete registration information",
+        "i3": "You must maintain the security of your account credentials",
+        "i4": "You must comply with all applicable laws and regulations"
+      },
+      "s2Heading": "3.2 Driver Requirements",
+      "s2Items": {
+        "i1": "Valid driver's license and vehicle registration",
+        "i2": "Successful completion of background check",
+        "i3": "Proof of vehicle insurance meeting minimum requirements",
+        "i4": "Vehicle meeting safety and condition standards",
+        "i5": "Compliance with all local transportation regulations"
+      }
+    },
+    "s4": {
+      "heading": "4. Tribe System",
+      "s1Heading": "4.1 Driver Tribes",
+      "s1Body": "Drivers create tribes and receive unique QR codes to share with prospective riders. Drivers are responsible for managing their tribe membership and maintaining trust within their community.",
+      "s2Heading": "4.2 Rider Membership",
+      "s2Body": "Riders join tribes by scanning a driver's QR code. Riders may belong to multiple tribes. Tribe membership does not guarantee ride availability or acceptance.",
+      "s3Heading": "4.3 Tribe Removal",
+      "s3Body": "Drivers may remove riders from their tribe at any time. Neighborly reserves the right to remove users from tribes or the platform for violations of these terms or safety concerns."
+    },
+    "s5": {
+      "heading": "5. Ride Booking and Acceptance",
+      "items": {
+        "i1": "Riders request rides through the app, selecting from their tribe drivers",
+        "i2": "Drivers have sole discretion to accept or decline ride requests",
+        "i3": "Accepted rides create a binding commitment for both parties",
+        "i4": "Cancellations made after a driver has accepted a ride may result in a cancellation fee, which will be disclosed in the app before you confirm the cancellation",
+        "i5": "Drivers must complete accepted rides unless safety concerns arise"
+      }
+    },
+    "s6": {
+      "heading": "6. Payment Terms",
+      "s1Heading": "6.1 Pricing",
+      "s1Body": "Ride prices are calculated based on distance, time, and demand. Drivers may set their own rates within platform guidelines. All prices are displayed before ride confirmation.",
+      "s2Heading": "6.2 Payment Processing",
+      "s2Body": "Payments may be made before or after rides as agreed between rider and driver. Neighborly processes payments through secure third-party providers and charges a service fee on each transaction.",
+      "s3Heading": "6.3 Refunds",
+      "s3Body": "Refund requests are evaluated on a case-by-case basis. Disputes should be reported within 48 hours of ride completion. Neighborly's decision on refunds is final."
+    },
+    "s7": {
+      "heading": "7. User Conduct",
+      "intro": "You agree not to:",
+      "items": {
+        "i1": "Violate any laws or regulations",
+        "i2": "Harass, threaten, or harm other users",
+        "i3": "Provide false or misleading information",
+        "i4": "Use the platform for unauthorized commercial purposes",
+        "i5": "Interfere with platform operations or security",
+        "i6": "Share account credentials or QR codes inappropriately",
+        "i7": "Discriminate against users based on protected characteristics",
+        "i8": "Engage in fraudulent payment activities"
+      }
+    },
+    "s8": {
+      "heading": "8. Safety and Insurance",
+      "p1": "Drivers must maintain appropriate insurance coverage. Neighborly does not provide insurance for rides. Users participate at their own risk and should review their personal insurance policies.",
+      "p2": "Report safety concerns immediately through the app's emergency features. Neighborly investigates all safety reports and may suspend or terminate accounts pending investigation."
+    },
+    "s9": {
+      "heading": "9. Intellectual Property",
+      "p1": "All content, trademarks, and intellectual property on the Neighborly platform are owned by Neighborly or licensed to us. You may not use, copy, or distribute our intellectual property without written permission.",
+      "p2": "Our marketing materials, including website and promotional videos, may feature AI-generated characters and scenarios. These depictions are synthetic and do not represent real Neighborly riders, drivers, or any other actual person. Any resemblance to any real individual is coincidental and unintentional."
+    },
+    "s10": {
+      "heading": "10. Limitation of Liability",
+      "intro": "Neighborly provides the platform \"as is\" without warranties. We are not liable for:",
+      "items": {
+        "i1": "Actions or omissions of drivers or riders",
+        "i2": "Accidents, injuries, or property damage during rides",
+        "i3": "Service interruptions or technical issues",
+        "i4": "Loss of data or unauthorized account access",
+        "i5": "Indirect, incidental, or consequential damages"
+      },
+      "outro": "Our total liability is limited to the amount paid by you in the 12 months preceding the claim."
+    },
+    "s11": {
+      "heading": "11. Indemnification",
+      "body": "You agree to indemnify and hold Neighborly harmless from any claims, damages, or expenses arising from your use of the platform, violation of these terms, or violation of any rights of third parties."
+    },
+    "s12": {
+      "heading": "12. Termination",
+      "p1": "We may suspend or terminate your account at any time for violations of these terms, safety concerns, or fraudulent activity. You may terminate your account at any time through the app settings.",
+      "p2": "Upon termination, your right to use the platform ceases immediately. Provisions regarding liability, indemnification, and dispute resolution survive termination."
+    },
+    "s13": {
+      "heading": "13. Dispute Resolution",
+      "p1": "Any disputes arising from these terms or use of the platform shall be resolved through binding arbitration in accordance with the rules of the American Arbitration Association.",
+      "p2": "You waive the right to participate in class action lawsuits. This arbitration agreement does not preclude seeking relief in small claims court."
+    },
+    "s14": {
+      "heading": "14. Governing Law",
+      "body": "These terms are governed by the laws of the State of Texas, USA, without regard to conflict of law provisions. This applies regardless of your state, country, or territory of residence or the location from which you access or use the platform, except to the extent that mandatory consumer protection or other local laws of your jurisdiction cannot be waived and apply notwithstanding this choice of law."
+    },
+    "s15": {
+      "heading": "15. Contact Information",
+      "intro": "For questions about these Terms of Service, contact us:",
+      "email": "Email: support@neighborly.live",
+      "address": "Address: 12166 Metric Blvd, Austin, TX 78613, USA",
+      "phone": "Phone: (281) 849-3110"
+    }
+  },
+  "Safety": {
+    "title": "Safety Guidelines",
+    "subtitle": "Your safety is our top priority",
+    "commitment": {
+      "heading": "Our Commitment to Safety",
+      "body": "Neighborly is built on trust and community. We've implemented comprehensive safety measures to protect both riders and drivers. While our tribe-based system creates trusted connections, we encourage all users to follow these safety guidelines."
+    },
+    "driverStandards": {
+      "heading": "Driver Safety Standards",
+      "backgroundChecks": {
+        "heading": "Background Checks",
+        "intro": "All drivers undergo comprehensive background checks before joining Neighborly, including:",
+        "items": {
+          "i1": "Criminal history screening",
+          "i2": "Driving record verification",
+          "i3": "Identity verification",
+          "i4": "Sex offender registry check",
+          "i5": "Continuous monitoring for new violations"
+        }
+      },
+      "vehicleRequirements": {
+        "heading": "Vehicle Requirements",
+        "items": {
+          "i1": "Annual vehicle inspection and safety certification",
+          "i2": "Valid registration and insurance documentation",
+          "i3": "Clean, well-maintained vehicle condition",
+          "i4": "Working seatbelts for all passengers",
+          "i5": "Functional safety features (airbags, lights, brakes)"
+        }
+      }
+    },
+    "beforeRide": {
+      "heading": "Before Your Ride",
+      "forRiders": {
+        "heading": "For Riders",
+        "items": {
+          "i1": "Verify the driver's profile photo matches the person picking you up",
+          "i2": "Check the vehicle make, model, color, and license plate",
+          "i3": "Share your trip details with a trusted friend or family member",
+          "i4": "Wait in a safe, well-lit location",
+          "i5": "Never share personal contact information before the ride",
+          "i6": "Trust your instincts - cancel if something feels wrong"
+        }
+      },
+      "forDrivers": {
+        "heading": "For Drivers",
+        "items": {
+          "i1": "Confirm the rider's identity before starting the trip",
+          "i2": "Ensure your vehicle is clean and in good working condition",
+          "i3": "Keep your profile information and photo up to date",
+          "i4": "Plan your route in advance using the app's navigation",
+          "i5": "Maintain appropriate insurance coverage",
+          "i6": "Never accept rides outside the platform"
+        }
+      }
+    },
+    "duringRide": {
+      "heading": "During Your Ride",
+      "bestPractices": {
+        "heading": "Best Practices",
+        "items": {
+          "i1": "Always wear your seatbelt",
+          "i2": "Sit in the back seat when riding alone",
+          "i3": "Keep conversations respectful and professional",
+          "i4": "Follow the GPS route provided by the app",
+          "i5": "Keep personal belongings secure",
+          "i6": "Avoid distractions - no phone use while driving",
+          "i7": "Respect personal boundaries and space"
+        }
+      },
+      "redFlags": {
+        "heading": "Red Flags",
+        "intro": "End the ride immediately and report if:",
+        "items": {
+          "i1": "The driver appears impaired or drives recklessly",
+          "i2": "The route deviates significantly without explanation",
+          "i3": "You feel threatened or uncomfortable",
+          "i4": "The driver makes inappropriate comments or advances",
+          "i5": "The vehicle condition seems unsafe"
+        }
+      }
+    },
+    "resources": {
+      "heading": "Safety Resources in the App",
+      "helpCenter": {
+        "heading": "Help & Safety Center",
+        "body": "Every account has access to an in-app Help & Safety Center with safety guidance and a one-tap \"Contact Support\" button that opens an email to our support team."
+      },
+      "shareTrip": {
+        "heading": "Share Your Trip",
+        "body": "Before you get in the car, share your driver's name, vehicle details, and trip plans with a friend or family member using your phone's messaging apps."
+      },
+      "ratings": {
+        "heading": "Ratings & Feedback",
+        "body": "After a trip, riders can rate their driver and submit feedback. Neighborly may review reported concerns and take appropriate account action."
+      },
+      "teamSupport": {
+        "heading": "Safety Team Support",
+        "body": "For immediate danger, always call 911 first. The in-app Help & Safety Center is available anytime, and our safety team reviews and responds to reports during business hours (Monday - Friday, 9am - 6pm Central Time)."
+      }
+    },
+    "tribeSafety": {
+      "heading": "Tribe Safety",
+      "intro": "The tribe system creates trusted communities, but safety remains everyone's responsibility:",
+      "items": {
+        "i1": "Drivers should only share QR codes with people they trust",
+        "i2": "Riders should join tribes of drivers they know or who come recommended",
+        "i3": "Report any suspicious behavior within your tribe",
+        "i4": "Drivers can remove riders from their tribe at any time",
+        "i5": "Multiple tribe memberships provide backup options"
+      }
+    },
+    "reporting": {
+      "heading": "Reporting Safety Concerns",
+      "howToReport": {
+        "heading": "How to Report",
+        "intro": "Report safety issues immediately through:",
+        "appCenter": "The in-app Help & Safety Center (\"Contact Support\")",
+        "postRide": "Your post-ride rating and feedback",
+        "safetyLineLabel": "Safety line:",
+        "safetyLineHours": "(Monday - Friday, 9am - 6pm Central Time)",
+        "emailLabel": "Email:"
+      },
+      "whatHappensNext": {
+        "heading": "What Happens Next",
+        "intro": "All safety reports are taken seriously:",
+        "items": {
+          "i1": "Immediate review by our safety team",
+          "i2": "Account suspension pending investigation for serious violations",
+          "i3": "Cooperation with law enforcement when necessary",
+          "i4": "Follow-up communication with reporting party",
+          "i5": "Permanent ban for confirmed safety violations"
+        }
+      }
+    },
+    "covid": {
+      "heading": "COVID-19 Safety",
+      "items": {
+        "i1": "Follow local health guidelines and regulations",
+        "i2": "Wear masks when required or requested",
+        "i3": "Maintain vehicle cleanliness and ventilation",
+        "i4": "Cancel rides if feeling unwell",
+        "i5": "Respect others' health preferences and boundaries"
+      }
+    },
+    "insurance": {
+      "heading": "Insurance and Liability",
+      "p1": "Drivers must maintain appropriate insurance coverage. Neighborly does not provide insurance for rides. Review your personal insurance policy to understand coverage during ride-sharing activities.",
+      "p2": "In case of accidents, exchange insurance information and file a police report. Contact our support team for assistance with incident documentation."
+    },
+    "communityStandards": {
+      "heading": "Community Standards",
+      "intro": "Neighborly is built on mutual respect and trust. We expect all users to:",
+      "items": {
+        "i1": "Treat others with courtesy and respect",
+        "i2": "Maintain appropriate behavior and language",
+        "i3": "Respect personal space and boundaries",
+        "i4": "Follow all traffic laws and regulations",
+        "i5": "Keep vehicles clean and smoke-free",
+        "i6": "Honor commitments and arrive on time",
+        "i7": "Provide honest ratings and feedback"
+      }
+    },
+    "resourcesBox": {
+      "heading": "Safety Resources",
+      "emergency": {
+        "label": "Emergency Services",
+        "body": "Call 911 for immediate emergencies"
+      },
+      "safetyLine": {
+        "label": "Neighborly Safety Line",
+        "hours": "(Monday - Friday, 9am - 6pm Central Time)"
+      },
+      "safetyEmail": {
+        "label": "Safety Email"
+      },
+      "generalSupport": {
+        "label": "General Support"
+      }
+    },
+    "remember": {
+      "heading": "Remember",
+      "body": "Your safety is paramount. Trust your instincts. If something doesn't feel right, it probably isn't. Don't hesitate to cancel a ride, end a trip early, or contact emergency services. The in-app Help & Safety Center is available anytime, and our team is ready to help during business hours."
+    }
+  },
   "Contact": {
     "title": "Contact Us",
     "subtitle": "We'd love to hear from you. Get in touch with our team.",

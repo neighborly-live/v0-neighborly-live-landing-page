@@ -3,6 +3,319 @@
     "title": "Neighborly - Viajes compartidos basados en la confianza",
     "description": "Conéctate con conductores de confianza en tu comunidad. Viajes seguros, flexibles y basados en relaciones reales."
   },
+  "Terms": {
+    "title": "Términos de Servicio",
+    "lastUpdated": "Última actualización: octubre de 2026",
+    "s1": {
+      "heading": "1. Aceptación de los Términos",
+      "p1": "Al acceder o utilizar la aplicación móvil y los servicios de Neighborly, aceptas quedar sujeto a estos Términos de Servicio. Si no estás de acuerdo con estos términos, no utilices nuestra plataforma.",
+      "p2": "Estos términos constituyen un acuerdo legalmente vinculante entre tú y Neighborly. Nos reservamos el derecho de modificar estos términos en cualquier momento, y tu uso continuado constituye la aceptación de dichos cambios."
+    },
+    "s2": {
+      "heading": "2. Descripción del servicio",
+      "intro": "Neighborly es una plataforma de viajes compartidos basada en la confianza que conecta a pasajeros con conductores verificados a través de \"tribus\" comunitarias. Nuestra plataforma facilita:",
+      "items": {
+        "i1": "La incorporación de conductores con verificación de antecedentes",
+        "i2": "Un sistema de membresía de tribus basado en códigos QR",
+        "i3": "La reserva de viajes y la asignación de conductores dentro de las tribus",
+        "i4": "El procesamiento de pagos y la gestión de transacciones",
+        "i5": "La comunicación entre pasajeros y conductores"
+      },
+      "outro": "Neighborly funciona como una plataforma tecnológica que conecta a conductores independientes con pasajeros. No prestamos servicios de transporte directamente ni somos una empresa de transporte."
+    },
+    "s3": {
+      "heading": "3. Elegibilidad del usuario",
+      "s1Heading": "3.1 Requisitos generales",
+      "s1Items": {
+        "i1": "Debes tener al menos 18 años de edad",
+        "i2": "Debes proporcionar información de registro precisa y completa",
+        "i3": "Debes mantener la seguridad de las credenciales de tu cuenta",
+        "i4": "Debes cumplir con todas las leyes y regulaciones aplicables"
+      },
+      "s2Heading": "3.2 Requisitos para conductores",
+      "s2Items": {
+        "i1": "Licencia de conducir válida y registro del vehículo",
+        "i2": "Verificación de antecedentes aprobada satisfactoriamente",
+        "i3": "Comprobante de seguro del vehículo que cumpla con los requisitos mínimos",
+        "i4": "Vehículo que cumpla con los estándares de seguridad y condición",
+        "i5": "Cumplimiento de todas las regulaciones locales de transporte"
+      }
+    },
+    "s4": {
+      "heading": "4. Sistema de tribus",
+      "s1Heading": "4.1 Tribus de conductores",
+      "s1Body": "Los conductores crean tribus y reciben códigos QR únicos para compartir con posibles pasajeros. Los conductores son responsables de gestionar la membresía de su tribu y de mantener la confianza dentro de su comunidad.",
+      "s2Heading": "4.2 Membresía de pasajeros",
+      "s2Body": "Los pasajeros se unen a tribus escaneando el código QR de un conductor. Los pasajeros pueden pertenecer a varias tribus. La membresía en una tribu no garantiza la disponibilidad o aceptación de un viaje.",
+      "s3Heading": "4.3 Eliminación de la tribu",
+      "s3Body": "Los conductores pueden eliminar a pasajeros de su tribu en cualquier momento. Neighborly se reserva el derecho de eliminar usuarios de las tribus o de la plataforma por incumplimiento de estos términos o por motivos de seguridad."
+    },
+    "s5": {
+      "heading": "5. Reserva y aceptación de viajes",
+      "items": {
+        "i1": "Los pasajeros solicitan viajes a través de la app, eligiendo entre los conductores de su tribu",
+        "i2": "Los conductores tienen la facultad exclusiva de aceptar o rechazar solicitudes de viaje",
+        "i3": "Los viajes aceptados generan un compromiso vinculante para ambas partes",
+        "i4": "Las cancelaciones realizadas después de que un conductor haya aceptado un viaje pueden generar una tarifa de cancelación, la cual se mostrará en la app antes de que confirmes la cancelación",
+        "i5": "Los conductores deben completar los viajes aceptados, salvo que surjan motivos de seguridad"
+      }
+    },
+    "s6": {
+      "heading": "6. Condiciones de pago",
+      "s1Heading": "6.1 Precios",
+      "s1Body": "Los precios de los viajes se calculan según la distancia, el tiempo y la demanda. Los conductores pueden establecer sus propias tarifas dentro de las pautas de la plataforma. Todos los precios se muestran antes de confirmar el viaje.",
+      "s2Heading": "6.2 Procesamiento de pagos",
+      "s2Body": "Los pagos pueden realizarse antes o después del viaje, según lo acordado entre el pasajero y el conductor. Neighborly procesa los pagos a través de proveedores externos seguros y cobra una tarifa de servicio en cada transacción.",
+      "s3Heading": "6.3 Reembolsos",
+      "s3Body": "Las solicitudes de reembolso se evalúan caso por caso. Las disputas deben reportarse dentro de las 48 horas posteriores a la finalización del viaje. La decisión de Neighborly sobre los reembolsos es definitiva."
+    },
+    "s7": {
+      "heading": "7. Conducta del usuario",
+      "intro": "Aceptas no hacer lo siguiente:",
+      "items": {
+        "i1": "Infringir cualquier ley o regulación",
+        "i2": "Acosar, amenazar o dañar a otros usuarios",
+        "i3": "Proporcionar información falsa o engañosa",
+        "i4": "Usar la plataforma con fines comerciales no autorizados",
+        "i5": "Interferir con el funcionamiento o la seguridad de la plataforma",
+        "i6": "Compartir credenciales de cuenta o códigos QR de forma inapropiada",
+        "i7": "Discriminar a los usuarios por características protegidas",
+        "i8": "Participar en actividades de pago fraudulentas"
+      }
+    },
+    "s8": {
+      "heading": "8. Seguridad y seguro",
+      "p1": "Los conductores deben mantener la cobertura de seguro adecuada. Neighborly no proporciona seguro para los viajes. Los usuarios participan bajo su propio riesgo y deben revisar sus pólizas de seguro personales.",
+      "p2": "Reporta cualquier problema de seguridad de inmediato a través de las funciones de emergencia de la app. Neighborly investiga todos los reportes de seguridad y puede suspender o cancelar cuentas mientras dure la investigación."
+    },
+    "s9": {
+      "heading": "9. Propiedad intelectual",
+      "p1": "Todo el contenido, marcas registradas y propiedad intelectual de la plataforma Neighborly son propiedad de Neighborly o están bajo licencia. No puedes usar, copiar ni distribuir nuestra propiedad intelectual sin permiso por escrito.",
+      "p2": "Nuestros materiales de marketing, incluidos el sitio web y los videos promocionales, pueden presentar personajes y escenarios generados por IA. Estas representaciones son sintéticas y no representan a pasajeros, conductores reales de Neighborly ni a ninguna otra persona real. Cualquier parecido con una persona real es coincidencia y no intencional."
+    },
+    "s10": {
+      "heading": "10. Limitación de responsabilidad",
+      "intro": "Neighborly proporciona la plataforma \"tal cual\" sin garantías. No somos responsables de:",
+      "items": {
+        "i1": "Las acciones u omisiones de conductores o pasajeros",
+        "i2": "Accidentes, lesiones o daños materiales durante los viajes",
+        "i3": "Interrupciones del servicio o problemas técnicos",
+        "i4": "Pérdida de datos o acceso no autorizado a la cuenta",
+        "i5": "Daños indirectos, incidentales o consecuentes"
+      },
+      "outro": "Nuestra responsabilidad total se limita al monto pagado por ti en los 12 meses anteriores al reclamo."
+    },
+    "s11": {
+      "heading": "11. Indemnización",
+      "body": "Aceptas indemnizar y eximir de responsabilidad a Neighborly ante cualquier reclamo, daño o gasto derivado de tu uso de la plataforma, el incumplimiento de estos términos o la violación de derechos de terceros."
+    },
+    "s12": {
+      "heading": "12. Terminación",
+      "p1": "Podemos suspender o cancelar tu cuenta en cualquier momento por incumplimiento de estos términos, motivos de seguridad o actividad fraudulenta. Puedes cancelar tu cuenta en cualquier momento desde la configuración de la app.",
+      "p2": "Al finalizar, tu derecho a usar la plataforma cesa de inmediato. Las disposiciones relacionadas con responsabilidad, indemnización y resolución de disputas permanecen vigentes tras la terminación."
+    },
+    "s13": {
+      "heading": "13. Resolución de disputas",
+      "p1": "Cualquier disputa derivada de estos términos o del uso de la plataforma se resolverá mediante arbitraje vinculante de acuerdo con las reglas de la American Arbitration Association.",
+      "p2": "Renuncias al derecho de participar en demandas colectivas. Este acuerdo de arbitraje no impide buscar una solución en un tribunal de reclamos menores."
+    },
+    "s14": {
+      "heading": "14. Ley aplicable",
+      "body": "Estos términos se rigen por las leyes del estado de Texas, EE. UU., sin tener en cuenta sus disposiciones sobre conflicto de leyes. Esto aplica independientemente de tu estado, país o territorio de residencia, o del lugar desde el cual accedes o utilizas la plataforma, excepto en la medida en que las leyes locales obligatorias de protección al consumidor u otras leyes de tu jurisdicción no puedan renunciarse y apliquen a pesar de esta elección de ley."
+    },
+    "s15": {
+      "heading": "15. Información de contacto",
+      "intro": "Si tienes preguntas sobre estos Términos de Servicio, contáctanos:",
+      "email": "Correo electrónico: support@neighborly.live",
+      "address": "Dirección: 12166 Metric Blvd, Austin, TX 78613, USA",
+      "phone": "Teléfono: (281) 849-3110"
+    }
+  },
+  "Safety": {
+    "title": "Normas de Seguridad",
+    "subtitle": "Tu seguridad es nuestra máxima prioridad",
+    "commitment": {
+      "heading": "Nuestro compromiso con la seguridad",
+      "body": "Neighborly se basa en la confianza y la comunidad. Hemos implementado medidas de seguridad integrales para proteger tanto a pasajeros como a conductores. Aunque nuestro sistema de tribus crea conexiones de confianza, animamos a todos los usuarios a seguir estas normas de seguridad."
+    },
+    "driverStandards": {
+      "heading": "Normas de seguridad para conductores",
+      "backgroundChecks": {
+        "heading": "Verificación de antecedentes",
+        "intro": "Todos los conductores pasan por una verificación de antecedentes exhaustiva antes de unirse a Neighborly, que incluye:",
+        "items": {
+          "i1": "Revisión de antecedentes penales",
+          "i2": "Verificación del historial de manejo",
+          "i3": "Verificación de identidad",
+          "i4": "Revisión del registro de delincuentes sexuales",
+          "i5": "Monitoreo continuo de nuevas infracciones"
+        }
+      },
+      "vehicleRequirements": {
+        "heading": "Requisitos del vehículo",
+        "items": {
+          "i1": "Inspección anual del vehículo y certificación de seguridad",
+          "i2": "Registro y documentación de seguro vigentes",
+          "i3": "Vehículo limpio y en buen estado de mantenimiento",
+          "i4": "Cinturones de seguridad funcionales para todos los pasajeros",
+          "i5": "Funciones de seguridad operativas (bolsas de aire, luces, frenos)"
+        }
+      }
+    },
+    "beforeRide": {
+      "heading": "Antes de tu viaje",
+      "forRiders": {
+        "heading": "Para pasajeros",
+        "items": {
+          "i1": "Verifica que la foto de perfil del conductor coincida con la persona que te recoge",
+          "i2": "Revisa la marca, modelo, color y placa del vehículo",
+          "i3": "Comparte los detalles de tu viaje con un amigo o familiar de confianza",
+          "i4": "Espera en un lugar seguro y bien iluminado",
+          "i5": "Nunca compartas información de contacto personal antes del viaje",
+          "i6": "Confía en tu instinto: cancela si algo no se siente bien"
+        }
+      },
+      "forDrivers": {
+        "heading": "Para conductores",
+        "items": {
+          "i1": "Confirma la identidad del pasajero antes de iniciar el viaje",
+          "i2": "Asegúrate de que tu vehículo esté limpio y en buen estado",
+          "i3": "Mantén tu información de perfil y foto actualizadas",
+          "i4": "Planifica tu ruta con anticipación usando la navegación de la app",
+          "i5": "Mantén la cobertura de seguro adecuada",
+          "i6": "Nunca aceptes viajes fuera de la plataforma"
+        }
+      }
+    },
+    "duringRide": {
+      "heading": "Durante tu viaje",
+      "bestPractices": {
+        "heading": "Buenas prácticas",
+        "items": {
+          "i1": "Usa siempre el cinturón de seguridad",
+          "i2": "Siéntate en el asiento trasero cuando viajes solo(a)",
+          "i3": "Mantén las conversaciones respetuosas y profesionales",
+          "i4": "Sigue la ruta GPS proporcionada por la app",
+          "i5": "Mantén tus pertenencias personales seguras",
+          "i6": "Evita distracciones: no uses el teléfono mientras conduces",
+          "i7": "Respeta los límites y el espacio personal"
+        }
+      },
+      "redFlags": {
+        "heading": "Señales de alerta",
+        "intro": "Termina el viaje de inmediato y repórtalo si:",
+        "items": {
+          "i1": "El conductor parece estar impedido o conduce de forma imprudente",
+          "i2": "La ruta se desvía significativamente sin explicación",
+          "i3": "Te sientes amenazado(a) o incómodo(a)",
+          "i4": "El conductor hace comentarios o insinuaciones inapropiadas",
+          "i5": "El estado del vehículo parece inseguro"
+        }
+      }
+    },
+    "resources": {
+      "heading": "Recursos de seguridad en la app",
+      "helpCenter": {
+        "heading": "Centro de Ayuda y Seguridad",
+        "body": "Toda cuenta tiene acceso a un Centro de Ayuda y Seguridad dentro de la app, con orientación sobre seguridad y un botón de \"Contactar Soporte\" de un solo toque que abre un correo a nuestro equipo de soporte."
+      },
+      "shareTrip": {
+        "heading": "Comparte tu viaje",
+        "body": "Antes de subir al vehículo, comparte el nombre de tu conductor, los detalles del vehículo y el plan del viaje con un amigo o familiar usando las apps de mensajería de tu teléfono."
+      },
+      "ratings": {
+        "heading": "Calificaciones y comentarios",
+        "body": "Después de un viaje, los pasajeros pueden calificar a su conductor y enviar comentarios. Neighborly puede revisar los problemas reportados y tomar las medidas correspondientes en la cuenta."
+      },
+      "teamSupport": {
+        "heading": "Soporte del equipo de seguridad",
+        "body": "Ante un peligro inmediato, llama siempre primero al 911. El Centro de Ayuda y Seguridad dentro de la app está disponible en todo momento, y nuestro equipo de seguridad revisa y responde a los reportes en horario laboral (lunes a viernes, 9am - 6pm, hora central)."
+      }
+    },
+    "tribeSafety": {
+      "heading": "Seguridad en las tribus",
+      "intro": "El sistema de tribus crea comunidades de confianza, pero la seguridad sigue siendo responsabilidad de todos:",
+      "items": {
+        "i1": "Los conductores solo deben compartir sus códigos QR con personas de confianza",
+        "i2": "Los pasajeros deben unirse a tribus de conductores que conozcan o que vengan recomendados",
+        "i3": "Reporta cualquier comportamiento sospechoso dentro de tu tribu",
+        "i4": "Los conductores pueden eliminar a pasajeros de su tribu en cualquier momento",
+        "i5": "Pertenecer a varias tribus ofrece opciones de respaldo"
+      }
+    },
+    "reporting": {
+      "heading": "Cómo reportar problemas de seguridad",
+      "howToReport": {
+        "heading": "Cómo reportar",
+        "intro": "Reporta problemas de seguridad de inmediato a través de:",
+        "appCenter": "El Centro de Ayuda y Seguridad dentro de la app (\"Contactar Soporte\")",
+        "postRide": "Tu calificación y comentarios después del viaje",
+        "safetyLineLabel": "Línea de seguridad:",
+        "safetyLineHours": "(lunes a viernes, 9am - 6pm, hora central)",
+        "emailLabel": "Correo electrónico:"
+      },
+      "whatHappensNext": {
+        "heading": "Qué sucede después",
+        "intro": "Todos los reportes de seguridad se toman en serio:",
+        "items": {
+          "i1": "Revisión inmediata por nuestro equipo de seguridad",
+          "i2": "Suspensión de la cuenta mientras dure la investigación en casos de infracciones graves",
+          "i3": "Cooperación con las autoridades cuando sea necesario",
+          "i4": "Comunicación de seguimiento con la persona que reportó",
+          "i5": "Prohibición permanente ante infracciones de seguridad confirmadas"
+        }
+      }
+    },
+    "covid": {
+      "heading": "Seguridad frente al COVID-19",
+      "items": {
+        "i1": "Sigue las pautas y regulaciones de salud locales",
+        "i2": "Usa mascarilla cuando se requiera o se solicite",
+        "i3": "Mantén el vehículo limpio y ventilado",
+        "i4": "Cancela el viaje si no te sientes bien",
+        "i5": "Respeta las preferencias y límites de salud de los demás"
+      }
+    },
+    "insurance": {
+      "heading": "Seguro y responsabilidad",
+      "p1": "Los conductores deben mantener la cobertura de seguro adecuada. Neighborly no proporciona seguro para los viajes. Revisa tu póliza de seguro personal para entender la cobertura durante las actividades de viajes compartidos.",
+      "p2": "En caso de accidentes, intercambia la información del seguro y presenta un reporte policial. Contacta a nuestro equipo de soporte para recibir ayuda con la documentación del incidente."
+    },
+    "communityStandards": {
+      "heading": "Normas de la comunidad",
+      "intro": "Neighborly se basa en el respeto mutuo y la confianza. Esperamos que todos los usuarios:",
+      "items": {
+        "i1": "Traten a los demás con cortesía y respeto",
+        "i2": "Mantengan un comportamiento y lenguaje apropiados",
+        "i3": "Respeten el espacio y los límites personales",
+        "i4": "Cumplan con todas las leyes y regulaciones de tránsito",
+        "i5": "Mantengan los vehículos limpios y libres de humo",
+        "i6": "Cumplan sus compromisos y lleguen a tiempo",
+        "i7": "Brinden calificaciones y comentarios honestos"
+      }
+    },
+    "resourcesBox": {
+      "heading": "Recursos de seguridad",
+      "emergency": {
+        "label": "Servicios de emergencia",
+        "body": "Llama al 911 ante emergencias inmediatas"
+      },
+      "safetyLine": {
+        "label": "Línea de seguridad de Neighborly",
+        "hours": "(lunes a viernes, 9am - 6pm, hora central)"
+      },
+      "safetyEmail": {
+        "label": "Correo de seguridad"
+      },
+      "generalSupport": {
+        "label": "Soporte general"
+      }
+    },
+    "remember": {
+      "heading": "Recuerda",
+      "body": "Tu seguridad es lo más importante. Confía en tu instinto. Si algo no se siente bien, probablemente no lo esté. No dudes en cancelar un viaje, terminarlo antes de tiempo o contactar a los servicios de emergencia. El Centro de Ayuda y Seguridad dentro de la app está disponible en todo momento, y nuestro equipo está listo para ayudarte en horario laboral."
+    }
+  },
   "Contact": {
     "title": "Contáctanos",
     "subtitle": "Nos encantaría saber de ti. Ponte en contacto con nuestro equipo.",

@@ -1,228 +1,215 @@
-export default function SafetyGuidelines() {
+import { useTranslations } from "next-intl"
+import { setRequestLocale } from "next-intl/server"
+
+export default async function SafetyGuidelines({
+  params,
+}: {
+  params: Promise<{ locale: string }>
+}) {
+  const { locale } = await params
+  setRequestLocale(locale)
+
+  return <SafetyContent />
+}
+
+function SafetyContent() {
+  const t = useTranslations("Safety")
+
   return (
     <div className="min-h-screen bg-background">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-16 max-w-4xl">
-        <h1 className="text-4xl font-bold mb-8">Safety Guidelines</h1>
-        <p className="text-muted-foreground mb-8">Your safety is our top priority</p>
+        <h1 className="text-4xl font-bold mb-8">{t("title")}</h1>
+        <p className="text-muted-foreground mb-8">{t("subtitle")}</p>
 
         <div className="prose prose-slate max-w-none space-y-8">
           <section>
-            <h2 className="text-2xl font-semibold mb-4">Our Commitment to Safety</h2>
-            <p className="text-foreground/90 leading-relaxed mb-4">
-              Neighborly is built on trust and community. We've implemented comprehensive safety measures to protect
-              both riders and drivers. While our tribe-based system creates trusted connections, we encourage all users
-              to follow these safety guidelines.
-            </p>
+            <h2 className="text-2xl font-semibold mb-4">{t("commitment.heading")}</h2>
+            <p className="text-foreground/90 leading-relaxed mb-4">{t("commitment.body")}</p>
           </section>
 
           <section>
-            <h2 className="text-2xl font-semibold mb-4">Driver Safety Standards</h2>
+            <h2 className="text-2xl font-semibold mb-4">{t("driverStandards.heading")}</h2>
 
-            <h3 className="text-xl font-semibold mb-3 mt-6">Background Checks</h3>
-            <p className="text-foreground/90 leading-relaxed mb-4">
-              All drivers undergo comprehensive background checks before joining Neighborly, including:
-            </p>
+            <h3 className="text-xl font-semibold mb-3 mt-6">{t("driverStandards.backgroundChecks.heading")}</h3>
+            <p className="text-foreground/90 leading-relaxed mb-4">{t("driverStandards.backgroundChecks.intro")}</p>
             <ul className="list-disc pl-6 space-y-2 text-foreground/90">
-              <li>Criminal history screening</li>
-              <li>Driving record verification</li>
-              <li>Identity verification</li>
-              <li>Sex offender registry check</li>
-              <li>Continuous monitoring for new violations</li>
+              <li>{t("driverStandards.backgroundChecks.items.i1")}</li>
+              <li>{t("driverStandards.backgroundChecks.items.i2")}</li>
+              <li>{t("driverStandards.backgroundChecks.items.i3")}</li>
+              <li>{t("driverStandards.backgroundChecks.items.i4")}</li>
+              <li>{t("driverStandards.backgroundChecks.items.i5")}</li>
             </ul>
 
-            <h3 className="text-xl font-semibold mb-3 mt-6">Vehicle Requirements</h3>
+            <h3 className="text-xl font-semibold mb-3 mt-6">{t("driverStandards.vehicleRequirements.heading")}</h3>
             <ul className="list-disc pl-6 space-y-2 text-foreground/90">
-              <li>Annual vehicle inspection and safety certification</li>
-              <li>Valid registration and insurance documentation</li>
-              <li>Clean, well-maintained vehicle condition</li>
-              <li>Working seatbelts for all passengers</li>
-              <li>Functional safety features (airbags, lights, brakes)</li>
+              <li>{t("driverStandards.vehicleRequirements.items.i1")}</li>
+              <li>{t("driverStandards.vehicleRequirements.items.i2")}</li>
+              <li>{t("driverStandards.vehicleRequirements.items.i3")}</li>
+              <li>{t("driverStandards.vehicleRequirements.items.i4")}</li>
+              <li>{t("driverStandards.vehicleRequirements.items.i5")}</li>
             </ul>
           </section>
 
           <section>
-            <h2 className="text-2xl font-semibold mb-4">Before Your Ride</h2>
+            <h2 className="text-2xl font-semibold mb-4">{t("beforeRide.heading")}</h2>
 
-            <h3 className="text-xl font-semibold mb-3 mt-6">For Riders</h3>
+            <h3 className="text-xl font-semibold mb-3 mt-6">{t("beforeRide.forRiders.heading")}</h3>
             <ul className="list-disc pl-6 space-y-2 text-foreground/90">
-              <li>Verify the driver's profile photo matches the person picking you up</li>
-              <li>Check the vehicle make, model, color, and license plate</li>
-              <li>Share your trip details with a trusted friend or family member</li>
-              <li>Wait in a safe, well-lit location</li>
-              <li>Never share personal contact information before the ride</li>
-              <li>Trust your instincts - cancel if something feels wrong</li>
+              <li>{t("beforeRide.forRiders.items.i1")}</li>
+              <li>{t("beforeRide.forRiders.items.i2")}</li>
+              <li>{t("beforeRide.forRiders.items.i3")}</li>
+              <li>{t("beforeRide.forRiders.items.i4")}</li>
+              <li>{t("beforeRide.forRiders.items.i5")}</li>
+              <li>{t("beforeRide.forRiders.items.i6")}</li>
             </ul>
 
-            <h3 className="text-xl font-semibold mb-3 mt-6">For Drivers</h3>
+            <h3 className="text-xl font-semibold mb-3 mt-6">{t("beforeRide.forDrivers.heading")}</h3>
             <ul className="list-disc pl-6 space-y-2 text-foreground/90">
-              <li>Confirm the rider's identity before starting the trip</li>
-              <li>Ensure your vehicle is clean and in good working condition</li>
-              <li>Keep your profile information and photo up to date</li>
-              <li>Plan your route in advance using the app's navigation</li>
-              <li>Maintain appropriate insurance coverage</li>
-              <li>Never accept rides outside the platform</li>
-            </ul>
-          </section>
-
-          <section>
-            <h2 className="text-2xl font-semibold mb-4">During Your Ride</h2>
-
-            <h3 className="text-xl font-semibold mb-3 mt-6">Best Practices</h3>
-            <ul className="list-disc pl-6 space-y-2 text-foreground/90">
-              <li>Always wear your seatbelt</li>
-              <li>Sit in the back seat when riding alone</li>
-              <li>Keep conversations respectful and professional</li>
-              <li>Follow the GPS route provided by the app</li>
-              <li>Keep personal belongings secure</li>
-              <li>Avoid distractions - no phone use while driving</li>
-              <li>Respect personal boundaries and space</li>
-            </ul>
-
-            <h3 className="text-xl font-semibold mb-3 mt-6">Red Flags</h3>
-            <p className="text-foreground/90 leading-relaxed mb-4">End the ride immediately and report if:</p>
-            <ul className="list-disc pl-6 space-y-2 text-foreground/90">
-              <li>The driver appears impaired or drives recklessly</li>
-              <li>The route deviates significantly without explanation</li>
-              <li>You feel threatened or uncomfortable</li>
-              <li>The driver makes inappropriate comments or advances</li>
-              <li>The vehicle condition seems unsafe</li>
+              <li>{t("beforeRide.forDrivers.items.i1")}</li>
+              <li>{t("beforeRide.forDrivers.items.i2")}</li>
+              <li>{t("beforeRide.forDrivers.items.i3")}</li>
+              <li>{t("beforeRide.forDrivers.items.i4")}</li>
+              <li>{t("beforeRide.forDrivers.items.i5")}</li>
+              <li>{t("beforeRide.forDrivers.items.i6")}</li>
             </ul>
           </section>
 
           <section>
-            <h2 className="text-2xl font-semibold mb-4">Safety Resources in the App</h2>
+            <h2 className="text-2xl font-semibold mb-4">{t("duringRide.heading")}</h2>
 
-            <h3 className="text-xl font-semibold mb-3 mt-6">Help &amp; Safety Center</h3>
-            <p className="text-foreground/90 leading-relaxed mb-4">
-              Every account has access to an in-app Help &amp; Safety Center with safety guidance and a one-tap
-              "Contact Support" button that opens an email to our support team.
-            </p>
-
-            <h3 className="text-xl font-semibold mb-3 mt-6">Share Your Trip</h3>
-            <p className="text-foreground/90 leading-relaxed mb-4">
-              Before you get in the car, share your driver's name, vehicle details, and trip plans with a friend or
-              family member using your phone's messaging apps.
-            </p>
-
-            <h3 className="text-xl font-semibold mb-3 mt-6">Ratings &amp; Feedback</h3>
-            <p className="text-foreground/90 leading-relaxed mb-4">
-              After a trip, riders can rate their driver and submit feedback. Neighborly may review reported concerns
-              and take appropriate account action.
-            </p>
-
-            <h3 className="text-xl font-semibold mb-3 mt-6">Safety Team Support</h3>
-            <p className="text-foreground/90 leading-relaxed">
-              For immediate danger, always call 911 first. The in-app Help &amp; Safety Center is available anytime,
-              and our safety team reviews and responds to reports during business hours (Monday - Friday, 9am - 6pm
-              Central Time).
-            </p>
-          </section>
-
-          <section>
-            <h2 className="text-2xl font-semibold mb-4">Tribe Safety</h2>
-            <p className="text-foreground/90 leading-relaxed mb-4">
-              The tribe system creates trusted communities, but safety remains everyone's responsibility:
-            </p>
+            <h3 className="text-xl font-semibold mb-3 mt-6">{t("duringRide.bestPractices.heading")}</h3>
             <ul className="list-disc pl-6 space-y-2 text-foreground/90">
-              <li>Drivers should only share QR codes with people they trust</li>
-              <li>Riders should join tribes of drivers they know or who come recommended</li>
-              <li>Report any suspicious behavior within your tribe</li>
-              <li>Drivers can remove riders from their tribe at any time</li>
-              <li>Multiple tribe memberships provide backup options</li>
+              <li>{t("duringRide.bestPractices.items.i1")}</li>
+              <li>{t("duringRide.bestPractices.items.i2")}</li>
+              <li>{t("duringRide.bestPractices.items.i3")}</li>
+              <li>{t("duringRide.bestPractices.items.i4")}</li>
+              <li>{t("duringRide.bestPractices.items.i5")}</li>
+              <li>{t("duringRide.bestPractices.items.i6")}</li>
+              <li>{t("duringRide.bestPractices.items.i7")}</li>
+            </ul>
+
+            <h3 className="text-xl font-semibold mb-3 mt-6">{t("duringRide.redFlags.heading")}</h3>
+            <p className="text-foreground/90 leading-relaxed mb-4">{t("duringRide.redFlags.intro")}</p>
+            <ul className="list-disc pl-6 space-y-2 text-foreground/90">
+              <li>{t("duringRide.redFlags.items.i1")}</li>
+              <li>{t("duringRide.redFlags.items.i2")}</li>
+              <li>{t("duringRide.redFlags.items.i3")}</li>
+              <li>{t("duringRide.redFlags.items.i4")}</li>
+              <li>{t("duringRide.redFlags.items.i5")}</li>
             </ul>
           </section>
 
           <section>
-            <h2 className="text-2xl font-semibold mb-4">Reporting Safety Concerns</h2>
+            <h2 className="text-2xl font-semibold mb-4">{t("resources.heading")}</h2>
 
-            <h3 className="text-xl font-semibold mb-3 mt-6">How to Report</h3>
-            <p className="text-foreground/90 leading-relaxed mb-4">Report safety issues immediately through:</p>
+            <h3 className="text-xl font-semibold mb-3 mt-6">{t("resources.helpCenter.heading")}</h3>
+            <p className="text-foreground/90 leading-relaxed mb-4">{t("resources.helpCenter.body")}</p>
+
+            <h3 className="text-xl font-semibold mb-3 mt-6">{t("resources.shareTrip.heading")}</h3>
+            <p className="text-foreground/90 leading-relaxed mb-4">{t("resources.shareTrip.body")}</p>
+
+            <h3 className="text-xl font-semibold mb-3 mt-6">{t("resources.ratings.heading")}</h3>
+            <p className="text-foreground/90 leading-relaxed mb-4">{t("resources.ratings.body")}</p>
+
+            <h3 className="text-xl font-semibold mb-3 mt-6">{t("resources.teamSupport.heading")}</h3>
+            <p className="text-foreground/90 leading-relaxed">{t("resources.teamSupport.body")}</p>
+          </section>
+
+          <section>
+            <h2 className="text-2xl font-semibold mb-4">{t("tribeSafety.heading")}</h2>
+            <p className="text-foreground/90 leading-relaxed mb-4">{t("tribeSafety.intro")}</p>
             <ul className="list-disc pl-6 space-y-2 text-foreground/90">
-              <li>The in-app Help &amp; Safety Center ("Contact Support")</li>
-              <li>Your post-ride rating and feedback</li>
+              <li>{t("tribeSafety.items.i1")}</li>
+              <li>{t("tribeSafety.items.i2")}</li>
+              <li>{t("tribeSafety.items.i3")}</li>
+              <li>{t("tribeSafety.items.i4")}</li>
+              <li>{t("tribeSafety.items.i5")}</li>
+            </ul>
+          </section>
+
+          <section>
+            <h2 className="text-2xl font-semibold mb-4">{t("reporting.heading")}</h2>
+
+            <h3 className="text-xl font-semibold mb-3 mt-6">{t("reporting.howToReport.heading")}</h3>
+            <p className="text-foreground/90 leading-relaxed mb-4">{t("reporting.howToReport.intro")}</p>
+            <ul className="list-disc pl-6 space-y-2 text-foreground/90">
+              <li>{t("reporting.howToReport.appCenter")}</li>
+              <li>{t("reporting.howToReport.postRide")}</li>
               <li>
-                Safety line:{" "}
+                {t("reporting.howToReport.safetyLineLabel")}{" "}
                 <a href="tel:+12818493110" className="text-primary hover:underline">
                   (281) 849-3110
                 </a>{" "}
-                (Monday - Friday, 9am - 6pm Central Time)
+                {t("reporting.howToReport.safetyLineHours")}
               </li>
               <li>
-                Email:{" "}
+                {t("reporting.howToReport.emailLabel")}{" "}
                 <a href="mailto:support@neighborly.live" className="text-primary hover:underline">
                   support@neighborly.live
                 </a>
               </li>
             </ul>
 
-            <h3 className="text-xl font-semibold mb-3 mt-6">What Happens Next</h3>
-            <p className="text-foreground/90 leading-relaxed mb-4">All safety reports are taken seriously:</p>
+            <h3 className="text-xl font-semibold mb-3 mt-6">{t("reporting.whatHappensNext.heading")}</h3>
+            <p className="text-foreground/90 leading-relaxed mb-4">{t("reporting.whatHappensNext.intro")}</p>
             <ul className="list-disc pl-6 space-y-2 text-foreground/90">
-              <li>Immediate review by our safety team</li>
-              <li>Account suspension pending investigation for serious violations</li>
-              <li>Cooperation with law enforcement when necessary</li>
-              <li>Follow-up communication with reporting party</li>
-              <li>Permanent ban for confirmed safety violations</li>
+              <li>{t("reporting.whatHappensNext.items.i1")}</li>
+              <li>{t("reporting.whatHappensNext.items.i2")}</li>
+              <li>{t("reporting.whatHappensNext.items.i3")}</li>
+              <li>{t("reporting.whatHappensNext.items.i4")}</li>
+              <li>{t("reporting.whatHappensNext.items.i5")}</li>
             </ul>
           </section>
 
           <section>
-            <h2 className="text-2xl font-semibold mb-4">COVID-19 Safety</h2>
+            <h2 className="text-2xl font-semibold mb-4">{t("covid.heading")}</h2>
             <ul className="list-disc pl-6 space-y-2 text-foreground/90">
-              <li>Follow local health guidelines and regulations</li>
-              <li>Wear masks when required or requested</li>
-              <li>Maintain vehicle cleanliness and ventilation</li>
-              <li>Cancel rides if feeling unwell</li>
-              <li>Respect others' health preferences and boundaries</li>
+              <li>{t("covid.items.i1")}</li>
+              <li>{t("covid.items.i2")}</li>
+              <li>{t("covid.items.i3")}</li>
+              <li>{t("covid.items.i4")}</li>
+              <li>{t("covid.items.i5")}</li>
             </ul>
           </section>
 
           <section>
-            <h2 className="text-2xl font-semibold mb-4">Insurance and Liability</h2>
-            <p className="text-foreground/90 leading-relaxed mb-4">
-              Drivers must maintain appropriate insurance coverage. Neighborly does not provide insurance for rides.
-              Review your personal insurance policy to understand coverage during ride-sharing activities.
-            </p>
-            <p className="text-foreground/90 leading-relaxed">
-              In case of accidents, exchange insurance information and file a police report. Contact our support team
-              for assistance with incident documentation.
-            </p>
+            <h2 className="text-2xl font-semibold mb-4">{t("insurance.heading")}</h2>
+            <p className="text-foreground/90 leading-relaxed mb-4">{t("insurance.p1")}</p>
+            <p className="text-foreground/90 leading-relaxed">{t("insurance.p2")}</p>
           </section>
 
           <section>
-            <h2 className="text-2xl font-semibold mb-4">Community Standards</h2>
-            <p className="text-foreground/90 leading-relaxed mb-4">
-              Neighborly is built on mutual respect and trust. We expect all users to:
-            </p>
+            <h2 className="text-2xl font-semibold mb-4">{t("communityStandards.heading")}</h2>
+            <p className="text-foreground/90 leading-relaxed mb-4">{t("communityStandards.intro")}</p>
             <ul className="list-disc pl-6 space-y-2 text-foreground/90">
-              <li>Treat others with courtesy and respect</li>
-              <li>Maintain appropriate behavior and language</li>
-              <li>Respect personal space and boundaries</li>
-              <li>Follow all traffic laws and regulations</li>
-              <li>Keep vehicles clean and smoke-free</li>
-              <li>Honor commitments and arrive on time</li>
-              <li>Provide honest ratings and feedback</li>
+              <li>{t("communityStandards.items.i1")}</li>
+              <li>{t("communityStandards.items.i2")}</li>
+              <li>{t("communityStandards.items.i3")}</li>
+              <li>{t("communityStandards.items.i4")}</li>
+              <li>{t("communityStandards.items.i5")}</li>
+              <li>{t("communityStandards.items.i6")}</li>
+              <li>{t("communityStandards.items.i7")}</li>
             </ul>
           </section>
 
           <section>
-            <h2 className="text-2xl font-semibold mb-4">Safety Resources</h2>
+            <h2 className="text-2xl font-semibold mb-4">{t("resourcesBox.heading")}</h2>
             <div className="bg-muted p-6 rounded-lg space-y-4">
               <div>
-                <p className="font-semibold text-foreground mb-1">Emergency Services</p>
-                <p className="text-foreground/90">Call 911 for immediate emergencies</p>
+                <p className="font-semibold text-foreground mb-1">{t("resourcesBox.emergency.label")}</p>
+                <p className="text-foreground/90">{t("resourcesBox.emergency.body")}</p>
               </div>
               <div>
-                <p className="font-semibold text-foreground mb-1">Neighborly Safety Line</p>
+                <p className="font-semibold text-foreground mb-1">{t("resourcesBox.safetyLine.label")}</p>
                 <p className="text-foreground/90">
                   <a href="tel:+12818493110" className="text-primary hover:underline">
                     (281) 849-3110
                   </a>{" "}
-                  (Monday - Friday, 9am - 6pm Central Time)
+                  {t("resourcesBox.safetyLine.hours")}
                 </p>
               </div>
               <div>
-                <p className="font-semibold text-foreground mb-1">Safety Email</p>
+                <p className="font-semibold text-foreground mb-1">{t("resourcesBox.safetyEmail.label")}</p>
                 <p className="text-foreground/90">
                   <a href="mailto:support@neighborly.live" className="text-primary hover:underline">
                     support@neighborly.live
@@ -230,7 +217,7 @@ export default function SafetyGuidelines() {
                 </p>
               </div>
               <div>
-                <p className="font-semibold text-foreground mb-1">General Support</p>
+                <p className="font-semibold text-foreground mb-1">{t("resourcesBox.generalSupport.label")}</p>
                 <p className="text-foreground/90">
                   <a href="mailto:support@neighborly.live" className="text-primary hover:underline">
                     support@neighborly.live
@@ -241,12 +228,8 @@ export default function SafetyGuidelines() {
           </section>
 
           <section className="bg-primary/5 p-6 rounded-lg border border-primary/20">
-            <h2 className="text-2xl font-semibold mb-4">Remember</h2>
-            <p className="text-foreground/90 leading-relaxed">
-              Your safety is paramount. Trust your instincts. If something doesn't feel right, it probably isn't. Don't
-              hesitate to cancel a ride, end a trip early, or contact emergency services. The in-app Help &amp; Safety
-              Center is available anytime, and our team is ready to help during business hours.
-            </p>
+            <h2 className="text-2xl font-semibold mb-4">{t("remember.heading")}</h2>
+            <p className="text-foreground/90 leading-relaxed">{t("remember.body")}</p>
           </section>
         </div>
       </div>
