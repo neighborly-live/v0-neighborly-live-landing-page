@@ -3,6 +3,146 @@
     "title": "Neighborly - Viajes compartidos basados en la confianza",
     "description": "Conéctate con conductores de confianza en tu comunidad. Viajes seguros, flexibles y basados en relaciones reales."
   },
+  "Contact": {
+    "title": "Contáctanos",
+    "subtitle": "Nos encantaría saber de ti. Ponte en contacto con nuestro equipo.",
+    "getInTouch": {
+      "heading": "Ponte en contacto",
+      "body": "¿Tienes preguntas sobre Neighborly? ¿Necesitas ayuda con tu cuenta? ¿Quieres asociarte con nosotros? Estamos aquí para ayudarte."
+    },
+    "emailLabel": "Correo electrónico",
+    "phoneLabel": "Teléfono",
+    "phoneHours": "Lunes a viernes, 9am - 6pm, hora central",
+    "addressLabel": "Dirección",
+    "form": {
+      "heading": "Envíanos un mensaje",
+      "nameLabel": "Nombre",
+      "namePlaceholder": "Tu nombre",
+      "emailLabel": "Correo electrónico",
+      "emailPlaceholder": "tu@correo.com",
+      "subjectLabel": "Asunto",
+      "subjectOptions": {
+        "placeholder": "Selecciona un asunto",
+        "general": "Consulta general",
+        "support": "Soporte técnico",
+        "driver": "Solicitud de conductor",
+        "partnership": "Oportunidad de alianza",
+        "feedback": "Comentarios",
+        "other": "Otro"
+      },
+      "messageLabel": "Mensaje",
+      "messagePlaceholder": "Cuéntanos cómo podemos ayudarte...",
+      "successMessage": "¡Gracias por tu mensaje! Te responderemos dentro de las próximas 24 horas.",
+      "errorMessage": "Algo salió mal. Inténtalo de nuevo o escríbenos directamente por correo.",
+      "submit": "Enviar mensaje",
+      "submitting": "Enviando..."
+    },
+    "faq": {
+      "heading": "Preguntas frecuentes",
+      "becomeDriver": {
+        "question": "¿Cómo me convierto en conductor?",
+        "answer": "Descarga la app de Neighborly y completa la solicitud de conductor. Deberás pasar una verificación de antecedentes y presentar la documentación de tu vehículo. Una vez aprobado, ¡podrás empezar a construir tu tribu!"
+      },
+      "joinTribe": {
+        "question": "¿Cómo me uno a la tribu de un conductor?",
+        "answer": "Pídele a un conductor verificado de Neighborly su código QR. Escanéalo en la app para unirte a su tribu y empezar a reservar viajes con él o ella."
+      },
+      "payment": {
+        "question": "¿Qué métodos de pago aceptan?",
+        "answer": "Aceptamos todas las tarjetas de crédito y débito principales, así como métodos de pago digitales. Puedes pagar antes o después de tu viaje, según tu acuerdo con tu conductor."
+      },
+      "availability": {
+        "question": "¿Neighborly está disponible en mi ciudad?",
+        "answer": "Estamos expandiéndonos rápidamente por todo EE. UU. Descarga la app para ver si estamos disponibles en tu zona, o contáctanos para solicitar el servicio en tu ciudad."
+      }
+    }
+  },
+  "Privacy": {
+    "title": "Política de Privacidad",
+    "lastUpdated": "Última actualización: enero de 2025",
+    "s1": {
+      "heading": "1. Introducción",
+      "p1": "Bienvenido a Neighborly. Respetamos tu privacidad y estamos comprometidos a proteger tus datos personales. Esta política de privacidad explica cómo recopilamos, usamos y protegemos tu información cuando utilizas nuestra plataforma de viajes compartidos basada en la confianza.",
+      "p2": "Neighborly conecta a pasajeros y conductores a través de \"tribus\" comunitarias basadas en la confianza y antecedentes verificados. Esta política aplica a todos los usuarios de nuestra aplicación móvil y servicios."
+    },
+    "s2": {
+      "heading": "2. Información que recopilamos",
+      "s1Heading": "2.1 Información personal",
+      "s1Items": {
+        "i1": "Nombre, dirección de correo electrónico y número de teléfono",
+        "i2": "Foto de perfil y preferencias del usuario",
+        "i3": "Información de pago (procesada de forma segura a través de proveedores externos)",
+        "i4": "Licencia de conducir e información del vehículo (para conductores)",
+        "i5": "Resultados de la verificación de antecedentes (para conductores)"
+      },
+      "s2Heading": "2.2 Datos de ubicación",
+      "s2Body": "Recopilamos datos de ubicación en tiempo real cuando usas nuestros servicios para facilitar la coincidencia de viajes, la navegación y las funciones de seguridad. El seguimiento de ubicación se puede desactivar en la configuración de tu dispositivo, pero esto puede limitar la funcionalidad de la app.",
+      "s3Heading": "2.3 Información de uso",
+      "s3Items": {
+        "i1": "Historial de viajes y detalles de los trayectos",
+        "i2": "Membresías de tribus e interacciones con códigos QR",
+        "i3": "Patrones de uso de la app y preferencias",
+        "i4": "Información del dispositivo y dirección IP",
+        "i5": "Comunicación entre pasajeros y conductores"
+      }
+    },
+    "s3": {
+      "heading": "3. Cómo usamos tu información",
+      "items": {
+        "i1": "Para facilitar la coincidencia de viajes entre pasajeros y conductores dentro de las tribus",
+        "i2": "Para procesar pagos y mantener registros de transacciones",
+        "i3": "Para realizar verificaciones de antecedentes a los conductores por motivos de seguridad",
+        "i4": "Para enviar notificaciones de viajes y actualizaciones importantes del servicio",
+        "i5": "Para mejorar nuestros servicios y desarrollar nuevas funciones",
+        "i6": "Para garantizar la seguridad de la plataforma y prevenir actividades fraudulentas",
+        "i7": "Para brindar atención al cliente y responder consultas",
+        "i8": "Para cumplir con obligaciones legales y hacer cumplir nuestros términos"
+      }
+    },
+    "s4": {
+      "heading": "4. Cómo compartimos la información",
+      "s1Heading": "4.1 Dentro de las tribus",
+      "s1Body": "Cuando te unes a la tribu de un conductor, cierta información (nombre, foto de perfil y calificaciones) puede ser visible para otros miembros de la tribu para facilitar conexiones basadas en la confianza.",
+      "s2Heading": "4.2 Con proveedores de servicios",
+      "s2Body": "Compartimos información con proveedores de servicios externos de confianza que nos ayudan con el procesamiento de pagos, verificación de antecedentes, servicios de mapas e infraestructura en la nube.",
+      "s3Heading": "4.3 Requisitos legales",
+      "s3Body": "Podemos divulgar información cuando la ley lo exija, para proteger nuestros derechos o para garantizar la seguridad de los usuarios en situaciones de emergencia."
+    },
+    "s5": {
+      "heading": "5. Seguridad de los datos",
+      "body": "Implementamos medidas de seguridad estándar de la industria para proteger tus datos, incluyendo cifrado, servidores seguros y auditorías de seguridad periódicas. Sin embargo, ningún método de transmisión por internet es 100% seguro."
+    },
+    "s6": {
+      "heading": "6. Tus derechos",
+      "items": {
+        "i1": "Acceder y revisar tu información personal",
+        "i2": "Solicitar correcciones a datos inexactos",
+        "i3": "Eliminar tu cuenta y los datos asociados",
+        "i4": "Darte de baja de las comunicaciones de marketing",
+        "i5": "Exportar tus datos en un formato portátil",
+        "i6": "Retirar el consentimiento para el procesamiento de datos (cuando corresponda)"
+      }
+    },
+    "s7": {
+      "heading": "7. Retención de datos",
+      "body": "Conservamos tu información durante el tiempo que sea necesario para prestar nuestros servicios, cumplir con obligaciones legales y resolver disputas. El historial de viajes se conserva durante 7 años por motivos legales y de seguridad."
+    },
+    "s8": {
+      "heading": "8. Privacidad de menores",
+      "body": "Neighborly no está destinado a usuarios menores de 18 años. No recopilamos información de menores de forma consciente. Si crees que hemos recopilado información de un menor, contáctanos de inmediato."
+    },
+    "s9": {
+      "heading": "9. Cambios a esta política",
+      "body": "Podemos actualizar esta política de privacidad periódicamente. Te notificaremos sobre cambios significativos por correo electrónico o notificación en la app. El uso continuado de nuestros servicios después de los cambios constituye la aceptación de la política actualizada."
+    },
+    "s10": {
+      "heading": "10. Contáctanos",
+      "intro": "Si tienes preguntas sobre esta política de privacidad o deseas ejercer tus derechos, contáctanos:",
+      "email": "Correo electrónico: support@neighborly.live",
+      "address": "Dirección: 12166 Metric Blvd, Austin, TX 78613, USA",
+      "phone": "Teléfono: (281) 849-3110"
+    }
+  },
   "About": {
     "title": "Sobre Neighborly",
     "subtitle": "Construyendo comunidades basadas en la confianza, un viaje a la vez",

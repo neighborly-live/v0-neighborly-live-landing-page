@@ -3,6 +3,146 @@
     "title": "Neighborly - Trust-Based Ride Sharing",
     "description": "Connect with trusted drivers in your community. Safe, flexible, and built on relationships."
   },
+  "Contact": {
+    "title": "Contact Us",
+    "subtitle": "We'd love to hear from you. Get in touch with our team.",
+    "getInTouch": {
+      "heading": "Get in Touch",
+      "body": "Have questions about Neighborly? Need support with your account? Want to partner with us? We're here to help."
+    },
+    "emailLabel": "Email",
+    "phoneLabel": "Phone",
+    "phoneHours": "Monday - Friday, 9am - 6pm Central Time",
+    "addressLabel": "Address",
+    "form": {
+      "heading": "Send us a Message",
+      "nameLabel": "Name",
+      "namePlaceholder": "Your name",
+      "emailLabel": "Email",
+      "emailPlaceholder": "your@email.com",
+      "subjectLabel": "Subject",
+      "subjectOptions": {
+        "placeholder": "Select a subject",
+        "general": "General Inquiry",
+        "support": "Technical Support",
+        "driver": "Driver Application",
+        "partnership": "Partnership Opportunity",
+        "feedback": "Feedback",
+        "other": "Other"
+      },
+      "messageLabel": "Message",
+      "messagePlaceholder": "Tell us how we can help...",
+      "successMessage": "Thank you for your message! We'll get back to you within 24 hours.",
+      "errorMessage": "Something went wrong. Please try again or email us directly.",
+      "submit": "Send Message",
+      "submitting": "Sending..."
+    },
+    "faq": {
+      "heading": "Frequently Asked Questions",
+      "becomeDriver": {
+        "question": "How do I become a driver?",
+        "answer": "Download the Neighborly app and complete the driver application. You'll need to pass a background check and provide vehicle documentation. Once approved, you can start building your tribe!"
+      },
+      "joinTribe": {
+        "question": "How do I join a driver's tribe?",
+        "answer": "Ask a verified Neighborly driver for their QR code. Scan it in the app to join their tribe and start booking rides with them."
+      },
+      "payment": {
+        "question": "What payment methods do you accept?",
+        "answer": "We accept all major credit cards, debit cards, and digital payment methods. You can pay before or after your ride, depending on your arrangement with your driver."
+      },
+      "availability": {
+        "question": "Is Neighborly available in my city?",
+        "answer": "We're rapidly expanding across the US. Download the app to see if we're available in your area, or contact us to request service in your city."
+      }
+    }
+  },
+  "Privacy": {
+    "title": "Privacy Policy",
+    "lastUpdated": "Last updated: January 2025",
+    "s1": {
+      "heading": "1. Introduction",
+      "p1": "Welcome to Neighborly. We respect your privacy and are committed to protecting your personal data. This privacy policy explains how we collect, use, and safeguard your information when you use our trust-based ride-sharing platform.",
+      "p2": "Neighborly connects riders and drivers through community-based \"tribes\" built on trust and verified backgrounds. This policy applies to all users of our mobile application and services."
+    },
+    "s2": {
+      "heading": "2. Information We Collect",
+      "s1Heading": "2.1 Personal Information",
+      "s1Items": {
+        "i1": "Name, email address, and phone number",
+        "i2": "Profile photo and user preferences",
+        "i3": "Payment information (processed securely through third-party providers)",
+        "i4": "Driver's license and vehicle information (for drivers)",
+        "i5": "Background check results (for drivers)"
+      },
+      "s2Heading": "2.2 Location Data",
+      "s2Body": "We collect real-time location data when you use our services to facilitate ride matching, navigation, and safety features. Location tracking can be disabled in your device settings, but this may limit app functionality.",
+      "s3Heading": "2.3 Usage Information",
+      "s3Items": {
+        "i1": "Ride history and trip details",
+        "i2": "Tribe memberships and QR code interactions",
+        "i3": "App usage patterns and preferences",
+        "i4": "Device information and IP address",
+        "i5": "Communication between riders and drivers"
+      }
+    },
+    "s3": {
+      "heading": "3. How We Use Your Information",
+      "items": {
+        "i1": "To facilitate ride matching between riders and drivers within tribes",
+        "i2": "To process payments and maintain transaction records",
+        "i3": "To conduct background checks on drivers for safety verification",
+        "i4": "To send ride notifications and important service updates",
+        "i5": "To improve our services and develop new features",
+        "i6": "To ensure platform safety and prevent fraudulent activity",
+        "i7": "To provide customer support and respond to inquiries",
+        "i8": "To comply with legal obligations and enforce our terms"
+      }
+    },
+    "s4": {
+      "heading": "4. Information Sharing",
+      "s1Heading": "4.1 Within Tribes",
+      "s1Body": "When you join a driver's tribe, certain information (name, profile photo, and ratings) may be visible to other tribe members to facilitate trust-based connections.",
+      "s2Heading": "4.2 With Service Providers",
+      "s2Body": "We share information with trusted third-party service providers who assist with payment processing, background checks, mapping services, and cloud infrastructure.",
+      "s3Heading": "4.3 Legal Requirements",
+      "s3Body": "We may disclose information when required by law, to protect our rights, or to ensure user safety in emergency situations."
+    },
+    "s5": {
+      "heading": "5. Data Security",
+      "body": "We implement industry-standard security measures to protect your data, including encryption, secure servers, and regular security audits. However, no method of transmission over the internet is 100% secure."
+    },
+    "s6": {
+      "heading": "6. Your Rights",
+      "items": {
+        "i1": "Access and review your personal information",
+        "i2": "Request corrections to inaccurate data",
+        "i3": "Delete your account and associated data",
+        "i4": "Opt-out of marketing communications",
+        "i5": "Export your data in a portable format",
+        "i6": "Withdraw consent for data processing (where applicable)"
+      }
+    },
+    "s7": {
+      "heading": "7. Data Retention",
+      "body": "We retain your information for as long as necessary to provide services, comply with legal obligations, and resolve disputes. Ride history is retained for 7 years for legal and safety purposes."
+    },
+    "s8": {
+      "heading": "8. Children's Privacy",
+      "body": "Neighborly is not intended for users under 18 years of age. We do not knowingly collect information from children. If you believe we have collected information from a minor, please contact us immediately."
+    },
+    "s9": {
+      "heading": "9. Changes to This Policy",
+      "body": "We may update this privacy policy periodically. We will notify you of significant changes via email or app notification. Continued use of our services after changes constitutes acceptance of the updated policy."
+    },
+    "s10": {
+      "heading": "10. Contact Us",
+      "intro": "If you have questions about this privacy policy or wish to exercise your rights, please contact us:",
+      "email": "Email: support@neighborly.live",
+      "address": "Address: 12166 Metric Blvd, Austin, TX 78613, USA",
+      "phone": "Phone: (281) 849-3110"
+    }
+  },
   "About": {
     "title": "About Neighborly",
     "subtitle": "Building trust-based communities, one ride at a time",
