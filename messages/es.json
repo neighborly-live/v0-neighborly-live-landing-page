@@ -3,6 +3,117 @@
     "title": "Neighborly - Viajes compartidos basados en la confianza",
     "description": "Conéctate con conductores de confianza en tu comunidad. Viajes seguros, flexibles y basados en relaciones reales."
   },
+  "About": {
+    "title": "Sobre Neighborly",
+    "subtitle": "Construyendo comunidades basadas en la confianza, un viaje a la vez",
+    "mission": {
+      "heading": "Nuestra misión",
+      "p1": "En Neighborly creemos que el transporte debe basarse en la confianza, no en transacciones. Estamos reinventando los viajes compartidos creando \"tribus\" comunitarias donde pasajeros y conductores se conocen y confían entre sí, haciendo que cada viaje sea más seguro, personal y conectado.",
+      "p2": "Nuestra plataforma permite a los conductores crear sus propias redes de confianza mediante perfiles verificados con antecedentes e invitaciones por código QR, mientras les da a los pasajeros la tranquilidad de viajar con personas que conocen y en las que confían."
+    },
+    "story": {
+      "heading": "Nuestra historia",
+      "p1": "Neighborly se fundó en 2024 a partir de una observación simple: los viajes compartidos tradicionales habían perdido la conexión humana. Pasajeros y conductores eran desconocidos, y cada viaje se sentía como una simple transacción. Nos preguntamos: \"¿Y si los viajes compartidos se sintieran más como viajar con un vecino?\"",
+      "p2": "De esa pregunta nació el concepto de las \"tribus\". Al permitir que los conductores creen sus propias redes verificadas y que los pasajeros se unan a varias comunidades de confianza, creamos una plataforma donde la seguridad y la familiaridad van de la mano.",
+      "p3": "Hoy, Neighborly crece en comunidades de todo el país, conectando a miles de pasajeros y conductores que valoran la confianza, la flexibilidad y la conexión humana genuina en sus traslados diarios."
+    },
+    "values": {
+      "heading": "Nuestros valores",
+      "trust": {
+        "title": "La confianza primero",
+        "description": "Todos los conductores pasan por una verificación exhaustiva de antecedentes, y cada tribu se construye sobre conexiones verificadas. La confianza no es solo una función: es nuestra base."
+      },
+      "community": {
+        "title": "Impulsados por la comunidad",
+        "description": "Creemos en el poder de las comunidades locales. Nuestro sistema de tribus pone el control en manos de conductores y pasajeros, creando redes que reflejan relaciones reales."
+      },
+      "safety": {
+        "title": "Seguridad siempre",
+        "description": "Desde verificación de antecedentes hasta seguimiento en tiempo real y asistencia de emergencia, hemos integrado múltiples capas de seguridad en cada aspecto de la experiencia Neighborly."
+      },
+      "flexibility": {
+        "title": "Flexibilidad y libertad de elección",
+        "description": "Los pasajeros pueden unirse a varias tribus y elegir a su conductor preferido. Los conductores pueden aceptar o rechazar viajes según su disponibilidad. Todos tienen el control de su experiencia."
+      }
+    },
+    "team": {
+      "heading": "Nuestro equipo",
+      "p1": "Neighborly está formado por un equipo diverso de tecnólogos, organizadores comunitarios e innovadores del transporte que comparten la pasión de crear comunidades más seguras y conectadas.",
+      "p2": "Tenemos nuestra sede en Austin, Texas, pero nuestro equipo trabaja de forma remota en todo el país, manteniéndose conectado con las comunidades a las que servimos. Siempre buscamos personas talentosas que compartan nuestra visión. ¡Consulta nuestra página de empleo y únete a nosotros!"
+    },
+    "contact": {
+      "heading": "Contáctanos",
+      "intro": "¿Tienes preguntas sobre Neighborly? Nos encantaría saber de ti.",
+      "email": "Correo electrónico",
+      "phone": "Teléfono",
+      "address": "Dirección"
+    }
+  },
+  "Careers": {
+    "title": "Empleo en Neighborly",
+    "subtitle": "Únete a nosotros para construir el futuro del transporte basado en la confianza",
+    "why": {
+      "heading": "¿Por qué trabajar en Neighborly?",
+      "body": "En Neighborly no solo estamos construyendo una aplicación, estamos construyendo comunidades. Somos un equipo de innovadores apasionados que creen que la tecnología debe unir a las personas, no separarlas. Si te entusiasma crear conexiones significativas y resolver problemas reales, queremos saber de ti."
+    },
+    "offer": {
+      "heading": "Lo que ofrecemos",
+      "compensation": {
+        "title": "Compensación competitiva",
+        "description": "Ofrecemos salarios competitivos, opciones de participación accionaria y paquetes de beneficios integrales que incluyen seguro médico, dental y de visión."
+      },
+      "remote": {
+        "title": "Cultura remota primero",
+        "description": "Trabaja desde cualquier lugar de EE. UU. Creemos en la flexibilidad y confiamos en que nuestro equipo haga su mejor trabajo donde se sienta más cómodo."
+      },
+      "growth": {
+        "title": "Crecimiento y aprendizaje",
+        "description": "Presupuesto para desarrollo profesional, asistencia a conferencias y oportunidades de aprendizaje continuo para ayudarte a crecer en tus habilidades y tu carrera."
+      },
+      "balance": {
+        "title": "Equilibrio entre vida y trabajo",
+        "description": "PTO ilimitado, horarios flexibles y una cultura que respeta tu tiempo fuera del trabajo. Creemos que un equipo feliz y equilibrado hace su mejor trabajo."
+      },
+      "impact": {
+        "title": "Impacto y propósito",
+        "description": "Tu trabajo impactará directamente a comunidades reales y ayudará a crear experiencias de transporte más seguras y conectadas para miles de personas."
+      }
+    },
+    "positions": {
+      "heading": "Posiciones abiertas",
+      "intro": "Estamos creciendo rápido y siempre buscamos personas talentosas para unirse a nuestro equipo. Las vacantes actuales incluyen:",
+      "locationType": "Remoto • Tiempo completo",
+      "engineer": {
+        "title": "Ingeniero(a) Full-Stack Senior",
+        "department": "Ingeniería",
+        "description": "Desarrolla funciones escalables para nuestras plataformas móvil y web usando React Native, Next.js y Node.js. Ayuda a definir nuestra arquitectura técnica y a guiar a ingenieros junior."
+      },
+      "designer": {
+        "title": "Diseñador(a) de producto",
+        "department": "Diseño",
+        "description": "Crea experiencias intuitivas y atractivas para pasajeros y conductores. Lidera el proceso de diseño desde la investigación hasta la implementación final, en estrecha colaboración con los equipos de ingeniería y producto."
+      },
+      "opsManager": {
+        "title": "Gerente de Operaciones Comunitarias",
+        "department": "Operaciones",
+        "description": "Construye y fortalece comunidades de conductores, gestiona los procesos de incorporación y garantiza experiencias de calidad en nuestra creciente red de tribus."
+      },
+      "marketing": {
+        "title": "Gerente de Marketing",
+        "department": "Marketing",
+        "description": "Impulsa el crecimiento a través de campañas creativas, participación comunitaria y alianzas estratégicas. Cuenta la historia de Neighborly y ayúdanos a llegar a nuevas comunidades."
+      }
+    },
+    "apply": {
+      "heading": "Cómo postularte",
+      "intro": "¿Te interesa unirte al equipo de Neighborly? ¡Nos encantaría saber de ti! Envía tu currículum y una breve nota sobre por qué te entusiasma Neighborly a:",
+      "note": "Incluye el título del puesto en el asunto de tu correo. Revisamos todas las postulaciones y responderemos en un plazo de 2 semanas."
+    },
+    "other": {
+      "heading": "¿No ves tu puesto ideal?",
+      "body": "Siempre estamos interesados en conocer personas talentosas, incluso si no tenemos ahora mismo una posición abierta que coincida con tus habilidades. Envíanos tu información y cuéntanos en qué te encantaría trabajar; te tendremos en cuenta para futuras oportunidades."
+    }
+  },
   "Header": {
     "features": "Características",
     "howItWorks": "Cómo funciona",

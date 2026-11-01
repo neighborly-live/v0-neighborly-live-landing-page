@@ -3,6 +3,117 @@
     "title": "Neighborly - Trust-Based Ride Sharing",
     "description": "Connect with trusted drivers in your community. Safe, flexible, and built on relationships."
   },
+  "About": {
+    "title": "About Neighborly",
+    "subtitle": "Building trust-based communities, one ride at a time",
+    "mission": {
+      "heading": "Our Mission",
+      "p1": "At Neighborly, we believe that transportation should be built on trust, not transactions. We're reimagining ride-sharing by creating community-based \"tribes\" where riders and drivers know and trust each other, making every journey safer, more personal, and more connected.",
+      "p2": "Our platform empowers drivers to build their own trusted networks through background-verified profiles and QR code invitations, while giving riders the peace of mind that comes from riding with people they know and trust."
+    },
+    "story": {
+      "heading": "Our Story",
+      "p1": "Neighborly was founded in 2024 with a simple observation: traditional ride-sharing had lost the human connection. Riders and drivers were strangers, and every trip felt transactional. We asked ourselves, \"What if ride-sharing could feel more like carpooling with a neighbor?\"",
+      "p2": "From this question, the concept of \"tribes\" was born. By allowing drivers to create their own verified networks and riders to join multiple trusted communities, we've created a platform where safety and familiarity go hand in hand.",
+      "p3": "Today, Neighborly is growing across communities nationwide, connecting thousands of riders and drivers who value trust, flexibility, and genuine human connection in their daily commutes."
+    },
+    "values": {
+      "heading": "Our Values",
+      "trust": {
+        "title": "Trust First",
+        "description": "Every driver undergoes comprehensive background checks, and every tribe is built on verified connections. Trust isn't just a feature—it's our foundation."
+      },
+      "community": {
+        "title": "Community Driven",
+        "description": "We believe in the power of local communities. Our tribe system puts control in the hands of drivers and riders, creating networks that reflect real relationships."
+      },
+      "safety": {
+        "title": "Safety Always",
+        "description": "From background checks to real-time tracking and emergency support, we've built multiple layers of safety into every aspect of the Neighborly experience."
+      },
+      "flexibility": {
+        "title": "Flexibility & Choice",
+        "description": "Riders can join multiple tribes and choose their preferred driver. Drivers can accept or decline rides based on their availability. Everyone has control over their experience."
+      }
+    },
+    "team": {
+      "heading": "Our Team",
+      "p1": "Neighborly is built by a diverse team of technologists, community organizers, and transportation innovators who share a passion for creating safer, more connected communities.",
+      "p2": "We're headquartered in Austin, Texas, but our team works remotely across the country, staying connected to the communities we serve. We're always looking for talented individuals who share our vision—check out our careers page to join us!"
+    },
+    "contact": {
+      "heading": "Contact Us",
+      "intro": "Have questions about Neighborly? We'd love to hear from you.",
+      "email": "Email",
+      "phone": "Phone",
+      "address": "Address"
+    }
+  },
+  "Careers": {
+    "title": "Careers at Neighborly",
+    "subtitle": "Join us in building the future of trust-based transportation",
+    "why": {
+      "heading": "Why Work at Neighborly?",
+      "body": "At Neighborly, we're not just building an app—we're building communities. We're a team of passionate innovators who believe that technology should bring people together, not drive them apart. If you're excited about creating meaningful connections and solving real-world problems, we want to hear from you."
+    },
+    "offer": {
+      "heading": "What We Offer",
+      "compensation": {
+        "title": "Competitive Compensation",
+        "description": "We offer competitive salaries, equity options, and comprehensive benefits packages including health, dental, and vision insurance."
+      },
+      "remote": {
+        "title": "Remote-First Culture",
+        "description": "Work from anywhere in the US. We believe in flexibility and trust our team to do their best work wherever they're most comfortable."
+      },
+      "growth": {
+        "title": "Growth & Learning",
+        "description": "Professional development budget, conference attendance, and continuous learning opportunities to help you grow your skills and career."
+      },
+      "balance": {
+        "title": "Work-Life Balance",
+        "description": "Unlimited PTO, flexible hours, and a culture that respects your time outside of work. We believe happy, balanced team members do their best work."
+      },
+      "impact": {
+        "title": "Impact & Purpose",
+        "description": "Your work will directly impact real communities and help create safer, more connected transportation experiences for thousands of people."
+      }
+    },
+    "positions": {
+      "heading": "Open Positions",
+      "intro": "We're growing fast and always looking for talented individuals to join our team. Current openings include:",
+      "locationType": "Remote • Full-time",
+      "engineer": {
+        "title": "Senior Full-Stack Engineer",
+        "department": "Engineering",
+        "description": "Build scalable features for our mobile and web platforms using React Native, Next.js, and Node.js. Help shape our technical architecture and mentor junior engineers."
+      },
+      "designer": {
+        "title": "Product Designer",
+        "department": "Design",
+        "description": "Create intuitive, beautiful experiences for riders and drivers. Own the design process from research to final implementation, working closely with engineering and product teams."
+      },
+      "opsManager": {
+        "title": "Community Operations Manager",
+        "department": "Operations",
+        "description": "Build and nurture driver communities, manage onboarding processes, and ensure quality experiences across our growing network of tribes."
+      },
+      "marketing": {
+        "title": "Marketing Manager",
+        "department": "Marketing",
+        "description": "Drive growth through creative campaigns, community engagement, and strategic partnerships. Tell the Neighborly story and help us reach new communities."
+      }
+    },
+    "apply": {
+      "heading": "How to Apply",
+      "intro": "Interested in joining the Neighborly team? We'd love to hear from you! Send your resume and a brief note about why you're excited about Neighborly to:",
+      "note": "Please include the position title in your email subject line. We review all applications and will respond within 2 weeks."
+    },
+    "other": {
+      "heading": "Don't See Your Role?",
+      "body": "We're always interested in meeting talented people, even if we don't have an open position that matches your skills right now. Send us your information and tell us what you'd love to work on—we'll keep you in mind for future opportunities."
+    }
+  },
   "Header": {
     "features": "Features",
     "howItWorks": "How It Works",
