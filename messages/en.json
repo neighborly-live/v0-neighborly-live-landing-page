@@ -1,0 +1,186 @@
+{
+  "Metadata": {
+    "title": "Neighborly - Trust-Based Ride Sharing",
+    "description": "Connect with trusted drivers in your community. Safe, flexible, and built on relationships."
+  },
+  "Header": {
+    "features": "Features",
+    "howItWorks": "How It Works",
+    "testimonials": "Testimonials"
+  },
+  "Hero": {
+    "titlePrefix": "Ride with people you",
+    "titleHighlight": "trust",
+    "subtitle": "Connect with verified drivers in your community. Safe, flexible ride-sharing built on relationships, not algorithms.",
+    "appStore": "Download on App Store",
+    "googlePlay": "Get it on Google Play"
+  },
+  "Features": {
+    "heading": "Why choose Neighborly?",
+    "subheading": "Experience ride-sharing the way it should be - safe, personal, and community-driven.",
+    "items": {
+      "shield": {
+        "title": "Verified Drivers",
+        "description": "All drivers undergo thorough background checks before joining the platform."
+      },
+      "users": {
+        "title": "Community Tribes",
+        "description": "Join driver tribes and build trusted networks for your rides."
+      },
+      "qrcode": {
+        "title": "QR Code Onboarding",
+        "description": "Drivers share unique QR codes to invite riders to their trusted tribe."
+      },
+      "bell": {
+        "title": "Smart Notifications",
+        "description": "Drivers receive instant notifications and can accept or decline based on availability."
+      },
+      "card": {
+        "title": "Flexible Payment",
+        "description": "Pay before or after your ride - whatever works best for you."
+      },
+      "heart": {
+        "title": "Built on Trust",
+        "description": "Ride with people you know and trust, creating safer journeys for everyone."
+      }
+    }
+  },
+  "ForDriversAndRiders": {
+    "heading": "Built for drivers. Built for riders.",
+    "subheading": "Neighborly works differently depending on which side of the ride you're on.",
+    "drivers": {
+      "title": "For Drivers",
+      "description": "Turn the riders you already trust into your own Tribe. Share your QR code, accept rides when you're available, and build a schedule around relationships — not algorithms.",
+      "cta": "Become a Driver"
+    },
+    "riders": {
+      "title": "For Riders",
+      "description": "Stop wondering who's picking you up. Join a driver's Tribe, request the people you already know, and ride with someone familiar every time.",
+      "cta": "Join a Tribe"
+    }
+  },
+  "HowItWorks": {
+    "heading": "How it works",
+    "subheading": "Getting started with Neighborly is simple. Here's how to join the community.",
+    "steps": {
+      "verify": {
+        "title": "Driver Gets Verified",
+        "description": "Drivers complete background checks and receive their unique QR code to share with potential riders."
+      },
+      "joinTribe": {
+        "title": "Join a Tribe",
+        "description": "Scan a driver's QR code to join their tribe. You can be part of multiple tribes for more options."
+      },
+      "bookRide": {
+        "title": "Book Your Ride",
+        "description": "Book a ride from a driver tribe that you belong to. As a rider, you have the flexibility to be part of more than one tribe."
+      },
+      "rideAndPay": {
+        "title": "Ride & Pay",
+        "description": "Enjoy your ride with a trusted driver. Pay before or after - whatever works for you."
+      }
+    },
+    "flowchart": {
+      "start": "Start Application",
+      "identityTitle": "Identity Verification",
+      "identitySubtitle": "Government ID Check",
+      "backgroundTitle": "Background Check",
+      "backgroundSubtitle": "Criminal Records Search",
+      "drivingTitle": "Driving Record",
+      "drivingSubtitle": "DMV & License Check",
+      "decision": "All Checks Passed?",
+      "yes": "YES",
+      "no": "NO",
+      "stripeTitle": "Stripe Onboarding",
+      "stripeSubtitle": "Payment Setup",
+      "verified": "Driver Verified",
+      "qrSent": "Tribe QR Code Sent",
+      "declined": "Declined",
+      "reviewNeeded": "Review Needed"
+    }
+  },
+  "AppShowcase": {
+    "heading": "Your community, your rides",
+    "description": "Neighborly puts you in control. Choose drivers you trust, schedule rides that fit your life, and build lasting connections in your community.",
+    "bullets": {
+      "multiTribe": "Multiple tribe memberships for more options",
+      "availability": "Real-time driver availability",
+      "history": "Ride history and receipts",
+      "review": "Rate and review your experience"
+    }
+  },
+  "VideoGallery": {
+    "heading": "Every rider, every reason",
+    "subheading": "Neighborly works the same way across every kind of trip — here's what it looks like.",
+    "clips": {
+      "senior": {
+        "title": "Some Tribes start on ride one.",
+        "description": "A regular rider who scanned in month one, and never looked back."
+      },
+      "family": {
+        "title": "Family trust, one driver.",
+        "description": "A parent scans a driver's code after seeing them safely drop off their teenager."
+      },
+      "redEye": {
+        "title": "Even at midnight, you're expected.",
+        "description": "The same driver waiting at arrivals at 11pm — the relationship holds at any hour."
+      },
+      "commuter": {
+        "title": "A standing relationship, not a one-off booking.",
+        "description": "A consultant who flies out every Monday, with the same driver every time."
+      },
+      "seniorFamily": {
+        "title": "Reassurance through familiarity.",
+        "description": "An older rider's family sees her picked up by the same driver she's used for months."
+      },
+      "college": {
+        "title": "Trust transferred, not just a ride booked.",
+        "description": "A parent helps their college-bound kid join a verified local driver's Tribe before move-in day."
+      }
+    }
+  },
+  "Testimonials": {
+    "heading": "Loved by riders and drivers",
+    "subheading": "See what our community members have to say about their Neighborly experience.",
+    "items": {
+      "sarah": {
+        "name": "Sarah Johnson",
+        "role": "Regular Rider",
+        "content": "I feel so much safer knowing exactly who my driver is. Being part of multiple tribes gives me great flexibility!"
+      },
+      "michael": {
+        "name": "Michael Chen",
+        "role": "Driver",
+        "content": "As a driver, I love having control over which rides I accept. The background check process made me feel professional."
+      },
+      "emily": {
+        "name": "Emily Rodriguez",
+        "role": "Community Member",
+        "content": "Neighborly has transformed how I get around. It's like having friends who drive you places - because they actually are!"
+      }
+    }
+  },
+  "CTA": {
+    "heading": "Ready to ride with your community?",
+    "subheading": "Join thousands of riders and drivers building safer, more connected communities.",
+    "appStore": "Download on App Store",
+    "googlePlay": "Get it on Google Play"
+  },
+  "Footer": {
+    "tagline": "Trust-based ride sharing for connected communities.",
+    "product": "Product",
+    "features": "Features",
+    "howItWorks": "How It Works",
+    "pricing": "Pricing",
+    "company": "Company",
+    "about": "About Us",
+    "careers": "Careers",
+    "contact": "Contact",
+    "legal": "Legal",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "safety": "Safety Guidelines",
+    "smsTerms": "SMS Terms",
+    "copyright": "© 2026 Neighborly. All rights reserved."
+  }
+}

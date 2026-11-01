@@ -1,6 +1,9 @@
-import Link from "next/link"
+import { useTranslations } from "next-intl"
+import { Link } from "@/i18n/navigation"
 
 export function Footer() {
+  const t = useTranslations("Footer")
+
   return (
     <footer className="border-t border-gray-200 py-12 px-4 sm:px-6 lg:px-8">
       <div className="container mx-auto">
@@ -9,76 +12,74 @@ export function Footer() {
             <img src="/logo.png" alt="Neighborly Logo" width={32} height={32} className="rounded-lg" />
             <span className="font-bold text-xl">Neighborly</span>
           </div>
-          <p className="text-muted-foreground text-sm leading-relaxed max-w-xs">
-            Trust-based ride sharing for connected communities.
-          </p>
+          <p className="text-muted-foreground text-sm leading-relaxed max-w-xs">{t("tagline")}</p>
         </div>
 
         <div className="grid grid-cols-3 gap-8 mb-8">
           <div>
-            <h3 className="font-semibold mb-4">Product</h3>
+            <h3 className="font-semibold mb-4">{t("product")}</h3>
             <ul className="space-y-2">
               <li>
                 <Link
-                  href="#features"
+                  href="/#features"
                   className="text-sm text-muted-foreground hover:text-foreground transition-colors"
                 >
-                  Features
+                  {t("features")}
                 </Link>
               </li>
               <li>
                 <Link
-                  href="#how-it-works"
+                  href="/#how-it-works"
                   className="text-sm text-muted-foreground hover:text-foreground transition-colors"
                 >
-                  How It Works
+                  {t("howItWorks")}
                 </Link>
               </li>
               <li>
                 <Link href="#" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
-                  Pricing
+                  {t("pricing")}
                 </Link>
               </li>
             </ul>
           </div>
 
           <div>
-            <h3 className="font-semibold mb-4">Company</h3>
+            <h3 className="font-semibold mb-4">{t("company")}</h3>
             <ul className="space-y-2">
               <li>
                 <Link href="/about" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
-                  About Us
+                  {t("about")}
                 </Link>
               </li>
               <li>
                 <Link href="/careers" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
-                  Careers
+                  {t("careers")}
                 </Link>
               </li>
               <li>
                 <Link href="/contact" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
-                  Contact
+                  {t("contact")}
                 </Link>
               </li>
             </ul>
           </div>
 
           <div>
-            <h3 className="font-semibold mb-4">Legal</h3>
+            <h3 className="font-semibold mb-4">{t("legal")}</h3>
             <ul className="space-y-2">
               <li>
                 <Link href="/privacy" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
-                  Privacy Policy
+                  {t("privacy")}
                 </Link>
               </li>
               <li>
                 <Link href="/terms" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
-                  Terms of Service
+                  {t("terms")}
                 </Link>
               </li>
               <li>
                 <Link href="/safety" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
-                  Safety Guidelines
+                  {t("safety")}
                 </Link>
               </li>
               <li>
@@ -86,7 +87,7 @@ export function Footer() {
                   href="/sms-terms"
                   className="text-sm text-muted-foreground hover:text-foreground transition-colors"
                 >
-                  SMS Terms
+                  {t("smsTerms")}
                 </Link>
               </li>
             </ul>
@@ -94,7 +95,7 @@ export function Footer() {
         </div>
 
         <div className="border-t border-gray-200 pt-8 flex flex-col sm:flex-row justify-between items-center gap-4">
-          <p className="text-sm text-muted-foreground">© 2026 Neighborly. All rights reserved.</p>
+          <p className="text-sm text-muted-foreground">{t("copyright")}</p>
           <div className="flex gap-6">
             <Link href="#" className="text-muted-foreground hover:text-foreground transition-colors">
               <span className="sr-only">Twitter</span>

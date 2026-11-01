@@ -1,17 +1,19 @@
+import { useTranslations } from "next-intl"
 import { Button } from "@/components/ui/button"
 import { VideoEmbed } from "@/components/video-embed"
 
 export function Hero() {
+  const t = useTranslations("Hero")
+
   return (
     <section className="pt-32 pb-20 px-4 sm:px-6 lg:px-8">
       <div className="container mx-auto">
         <div className="max-w-4xl mx-auto text-center">
           <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold tracking-tight mb-6 text-balance">
-            Ride with people you <span className="text-primary">trust</span>
+            {t("titlePrefix")} <span className="text-primary">{t("titleHighlight")}</span>
           </h1>
           <p className="text-xl sm:text-2xl text-muted-foreground mb-10 max-w-2xl mx-auto text-pretty leading-relaxed">
-            Connect with verified drivers in your community. Safe, flexible ride-sharing built on relationships, not
-            algorithms.
+            {t("subtitle")}
           </p>
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-16">
@@ -21,7 +23,7 @@ export function Hero() {
               asChild
             >
               <a href="https://apps.apple.com/app/neighborly/id6749149630" target="_blank" rel="noopener noreferrer">
-                Download on App Store
+                {t("appStore")}
               </a>
             </Button>
             <Button size="lg" variant="outline" className="w-full sm:w-auto bg-transparent" asChild>
@@ -30,7 +32,7 @@ export function Hero() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Get it on Google Play
+                {t("googlePlay")}
               </a>
             </Button>
           </div>

@@ -1,37 +1,7 @@
+import { useTranslations } from "next-intl"
 import { Card } from "@/components/ui/card"
 
-const features = [
-  {
-    icon: "shield",
-    title: "Verified Drivers",
-    description: "All drivers undergo thorough background checks before joining the platform.",
-  },
-  {
-    icon: "users",
-    title: "Community Tribes",
-    description: "Join driver tribes and build trusted networks for your rides.",
-  },
-  {
-    icon: "qrcode",
-    title: "QR Code Onboarding",
-    description: "Drivers share unique QR codes to invite riders to their trusted tribe.",
-  },
-  {
-    icon: "bell",
-    title: "Smart Notifications",
-    description: "Drivers receive instant notifications and can accept or decline based on availability.",
-  },
-  {
-    icon: "card",
-    title: "Flexible Payment",
-    description: "Pay before or after your ride - whatever works best for you.",
-  },
-  {
-    icon: "heart",
-    title: "Built on Trust",
-    description: "Ride with people you know and trust, creating safer journeys for everyone.",
-  },
-]
+const featureKeys = ["shield", "users", "qrcode", "bell", "card", "heart"] as const
 
 const IconMap = {
   shield: (
@@ -97,24 +67,24 @@ const IconMap = {
 }
 
 export function Features() {
+  const t = useTranslations("Features")
+
   return (
     <section id="features" className="py-20 px-4 sm:px-6 lg:px-8 bg-muted/30">
       <div className="container mx-auto">
         <div className="text-center mb-16">
-          <h2 className="text-4xl sm:text-5xl font-bold mb-4 text-balance">Why choose Neighborly?</h2>
-          <p className="text-xl text-muted-foreground max-w-2xl mx-auto text-pretty">
-            Experience ride-sharing the way it should be - safe, personal, and community-driven.
-          </p>
+          <h2 className="text-4xl sm:text-5xl font-bold mb-4 text-balance">{t("heading")}</h2>
+          <p className="text-xl text-muted-foreground max-w-2xl mx-auto text-pretty">{t("subheading")}</p>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {features.map((feature, index) => (
-            <Card key={index} className="p-6 hover:shadow-lg transition-shadow">
+          {featureKeys.map((key) => (
+            <Card key={key} className="p-6 hover:shadow-lg transition-shadow">
               <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mb-4 text-primary">
-                {IconMap[feature.icon as keyof typeof IconMap]}
+                {IconMap[key]}
               </div>
-              <h3 className="text-xl font-semibold mb-2">{feature.title}</h3>
-              <p className="text-muted-foreground leading-relaxed">{feature.description}</p>
+              <h3 className="text-xl font-semibold mb-2">{t(`items.${key}.title`)}</h3>
+              <p className="text-muted-foreground leading-relaxed">{t(`items.${key}.description`)}</p>
             </Card>
           ))}
         </div>

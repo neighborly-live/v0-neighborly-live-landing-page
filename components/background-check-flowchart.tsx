@@ -1,14 +1,17 @@
+import { useTranslations } from "next-intl"
 import { CheckCircle, Shield, Car, UserCheck, XCircle, ChevronDown, CreditCard } from "lucide-react"
 
 export function BackgroundCheckFlowchart() {
+  const t = useTranslations("HowItWorks.flowchart")
+
   return (
     <div className="w-full max-w-2xl mx-auto p-6 md:p-10">
       <div className="relative flex flex-col items-center">
-        
+
         {/* START - Oval Terminal */}
         <div className="flex flex-col items-center">
           <div className="bg-primary text-primary-foreground px-8 py-3 rounded-full shadow-lg shadow-primary/20 font-semibold text-center">
-            Start Application
+            {t("start")}
           </div>
         </div>
 
@@ -25,8 +28,8 @@ export function BackgroundCheckFlowchart() {
               <UserCheck className="w-4 h-4 text-primary" />
             </div>
             <div>
-              <h3 className="font-semibold text-foreground text-sm">Identity Verification</h3>
-              <p className="text-xs text-muted-foreground">Government ID Check</p>
+              <h3 className="font-semibold text-foreground text-sm">{t("identityTitle")}</h3>
+              <p className="text-xs text-muted-foreground">{t("identitySubtitle")}</p>
             </div>
           </div>
         </div>
@@ -44,8 +47,8 @@ export function BackgroundCheckFlowchart() {
               <Shield className="w-4 h-4 text-primary" />
             </div>
             <div>
-              <h3 className="font-semibold text-foreground text-sm">Background Check</h3>
-              <p className="text-xs text-muted-foreground">Criminal Records Search</p>
+              <h3 className="font-semibold text-foreground text-sm">{t("backgroundTitle")}</h3>
+              <p className="text-xs text-muted-foreground">{t("backgroundSubtitle")}</p>
             </div>
           </div>
         </div>
@@ -63,8 +66,8 @@ export function BackgroundCheckFlowchart() {
               <Car className="w-4 h-4 text-primary" />
             </div>
             <div>
-              <h3 className="font-semibold text-foreground text-sm">Driving Record</h3>
-              <p className="text-xs text-muted-foreground">DMV & License Check</p>
+              <h3 className="font-semibold text-foreground text-sm">{t("drivingTitle")}</h3>
+              <p className="text-xs text-muted-foreground">{t("drivingSubtitle")}</p>
             </div>
           </div>
         </div>
@@ -79,9 +82,7 @@ export function BackgroundCheckFlowchart() {
         <div className="flex flex-col items-center">
           <div className="relative w-36 h-36 flex items-center justify-center">
             <div className="absolute inset-0 bg-amber-50 border-2 border-amber-400 rotate-45 shadow-md" />
-            <span className="relative z-10 font-semibold text-amber-700 text-center text-sm px-2">
-              All Checks<br />Passed?
-            </span>
+            <span className="relative z-10 font-semibold text-amber-700 text-center text-sm px-2">{t("decision")}</span>
           </div>
         </div>
 
@@ -89,54 +90,54 @@ export function BackgroundCheckFlowchart() {
         <div className="flex w-full max-w-md mt-4">
           {/* YES Path - Left */}
           <div className="flex-1 flex flex-col items-center">
-            <span className="text-xs font-bold text-green-600 mb-1">YES</span>
+            <span className="text-xs font-bold text-green-600 mb-1">{t("yes")}</span>
             <div className="w-0.5 h-6 bg-green-400" />
             <ChevronDown className="w-5 h-5 text-green-500 -mt-2" />
-            
+
             {/* Stripe Onboarding - Process Rectangle */}
             <div className="mt-1 w-full max-w-[180px] bg-white border-2 border-blue-400 px-4 py-3 shadow-sm flex items-center gap-2">
               <div className="flex items-center justify-center w-8 h-8 rounded-full bg-blue-100 shrink-0">
                 <CreditCard className="w-4 h-4 text-blue-600" />
               </div>
               <div>
-                <h3 className="font-semibold text-foreground text-xs">Stripe Onboarding</h3>
-                <p className="text-[10px] text-muted-foreground">Payment Setup</p>
+                <h3 className="font-semibold text-foreground text-xs">{t("stripeTitle")}</h3>
+                <p className="text-[10px] text-muted-foreground">{t("stripeSubtitle")}</p>
               </div>
             </div>
-            
+
             <div className="w-0.5 h-4 bg-green-400 mt-2" />
             <ChevronDown className="w-5 h-5 text-green-500 -mt-2" />
-            
+
             {/* Approved Oval */}
             <div className="mt-1 bg-green-100 border-2 border-green-500 px-5 py-2 rounded-full flex items-center gap-2 shadow-sm">
               <CheckCircle className="w-4 h-4 text-green-600" />
-              <span className="font-semibold text-green-700 text-xs">Driver Verified</span>
+              <span className="font-semibold text-green-700 text-xs">{t("verified")}</span>
             </div>
-            
+
             <div className="w-0.5 h-4 bg-green-400 mt-2" />
             <ChevronDown className="w-5 h-5 text-green-500 -mt-2" />
-            
+
             {/* End Oval - QR Code */}
             <div className="mt-1 bg-green-600 text-white px-4 py-2 rounded-full text-xs font-semibold shadow-md text-center">
-              Tribe QR Code Sent
+              {t("qrSent")}
             </div>
           </div>
 
           {/* NO Path - Right */}
           <div className="flex-1 flex flex-col items-center">
-            <span className="text-xs font-bold text-red-500 mb-1">NO</span>
+            <span className="text-xs font-bold text-red-500 mb-1">{t("no")}</span>
             <div className="w-0.5 h-6 bg-red-300" />
             <ChevronDown className="w-5 h-5 text-red-400 -mt-2" />
             {/* Rejected Oval */}
             <div className="mt-1 bg-red-50 border-2 border-red-400 px-6 py-3 rounded-full flex items-center gap-2 shadow-sm">
               <XCircle className="w-4 h-4 text-red-500" />
-              <span className="font-semibold text-red-600 text-sm">Declined</span>
+              <span className="font-semibold text-red-600 text-sm">{t("declined")}</span>
             </div>
             <div className="w-0.5 h-4 bg-red-300 mt-2" />
             <ChevronDown className="w-5 h-5 text-red-400 -mt-2" />
             {/* End Oval */}
             <div className="mt-1 bg-red-500 text-white px-5 py-2 rounded-full text-xs font-semibold shadow-md">
-              Review Needed
+              {t("reviewNeeded")}
             </div>
           </div>
         </div>

@@ -1,0 +1,186 @@
+{
+  "Metadata": {
+    "title": "Neighborly - Viajes compartidos basados en la confianza",
+    "description": "Conéctate con conductores de confianza en tu comunidad. Viajes seguros, flexibles y basados en relaciones reales."
+  },
+  "Header": {
+    "features": "Características",
+    "howItWorks": "Cómo funciona",
+    "testimonials": "Testimonios"
+  },
+  "Hero": {
+    "titlePrefix": "Viaja con personas en las que",
+    "titleHighlight": "confías",
+    "subtitle": "Conéctate con conductores verificados en tu comunidad. Viajes compartidos seguros y flexibles, basados en relaciones, no en algoritmos.",
+    "appStore": "Descargar en App Store",
+    "googlePlay": "Disponible en Google Play"
+  },
+  "Features": {
+    "heading": "¿Por qué elegir Neighborly?",
+    "subheading": "Vive los viajes compartidos como deberían ser: seguros, personales e impulsados por la comunidad.",
+    "items": {
+      "shield": {
+        "title": "Conductores verificados",
+        "description": "Todos los conductores pasan por una verificación de antecedentes exhaustiva antes de unirse a la plataforma."
+      },
+      "users": {
+        "title": "Tribus comunitarias",
+        "description": "Únete a tribus de conductores y crea redes de confianza para tus viajes."
+      },
+      "qrcode": {
+        "title": "Registro con código QR",
+        "description": "Los conductores comparten códigos QR únicos para invitar a pasajeros a su tribu de confianza."
+      },
+      "bell": {
+        "title": "Notificaciones inteligentes",
+        "description": "Los conductores reciben notificaciones al instante y pueden aceptar o rechazar según su disponibilidad."
+      },
+      "card": {
+        "title": "Pago flexible",
+        "description": "Paga antes o después de tu viaje, lo que mejor te funcione."
+      },
+      "heart": {
+        "title": "Basado en la confianza",
+        "description": "Viaja con personas que conoces y en las que confías, creando trayectos más seguros para todos."
+      }
+    }
+  },
+  "ForDriversAndRiders": {
+    "heading": "Hecho para conductores. Hecho para pasajeros.",
+    "subheading": "Neighborly funciona de manera diferente según el lado del viaje en el que estés.",
+    "drivers": {
+      "title": "Para conductores",
+      "description": "Convierte a los pasajeros en los que ya confías en tu propia Tribu. Comparte tu código QR, acepta viajes cuando estés disponible y crea un horario basado en relaciones, no en algoritmos.",
+      "cta": "Conviértete en conductor"
+    },
+    "riders": {
+      "title": "Para pasajeros",
+      "description": "Deja de preguntarte quién te va a recoger. Únete a la Tribu de un conductor, solicita a las personas que ya conoces y viaja siempre con alguien familiar.",
+      "cta": "Únete a una Tribu"
+    }
+  },
+  "HowItWorks": {
+    "heading": "Cómo funciona",
+    "subheading": "Empezar con Neighborly es muy sencillo. Así es como te unes a la comunidad.",
+    "steps": {
+      "verify": {
+        "title": "El conductor se verifica",
+        "description": "Los conductores completan una verificación de antecedentes y reciben su código QR único para compartir con posibles pasajeros."
+      },
+      "joinTribe": {
+        "title": "Únete a una Tribu",
+        "description": "Escanea el código QR de un conductor para unirte a su tribu. Puedes formar parte de varias tribus para tener más opciones."
+      },
+      "bookRide": {
+        "title": "Reserva tu viaje",
+        "description": "Reserva un viaje con una tribu de conductores a la que pertenezcas. Como pasajero, tienes la flexibilidad de formar parte de más de una tribu."
+      },
+      "rideAndPay": {
+        "title": "Viaja y paga",
+        "description": "Disfruta de tu viaje con un conductor de confianza. Paga antes o después, lo que te resulte más cómodo."
+      }
+    },
+    "flowchart": {
+      "start": "Iniciar solicitud",
+      "identityTitle": "Verificación de identidad",
+      "identitySubtitle": "Revisión de identificación oficial",
+      "backgroundTitle": "Verificación de antecedentes",
+      "backgroundSubtitle": "Búsqueda de antecedentes penales",
+      "drivingTitle": "Historial de manejo",
+      "drivingSubtitle": "Revisión de licencia y DMV",
+      "decision": "¿Se aprobaron todas las verificaciones?",
+      "yes": "SÍ",
+      "no": "NO",
+      "stripeTitle": "Registro en Stripe",
+      "stripeSubtitle": "Configuración de pagos",
+      "verified": "Conductor verificado",
+      "qrSent": "Código QR de la Tribu enviado",
+      "declined": "Rechazado",
+      "reviewNeeded": "Requiere revisión"
+    }
+  },
+  "AppShowcase": {
+    "heading": "Tu comunidad, tus viajes",
+    "description": "Neighborly te da el control. Elige conductores de confianza, programa viajes que se adapten a tu vida y crea conexiones duraderas en tu comunidad.",
+    "bullets": {
+      "multiTribe": "Pertenece a varias tribus para tener más opciones",
+      "availability": "Disponibilidad de conductores en tiempo real",
+      "history": "Historial de viajes y recibos",
+      "review": "Califica y reseña tu experiencia"
+    }
+  },
+  "VideoGallery": {
+    "heading": "Cada pasajero, cada motivo",
+    "subheading": "Neighborly funciona igual en todo tipo de viajes — esto es lo que se siente.",
+    "clips": {
+      "senior": {
+        "title": "Algunas Tribus empiezan desde el primer viaje.",
+        "description": "Una pasajera habitual que escaneó el código en su primer mes y nunca miró atrás."
+      },
+      "family": {
+        "title": "Confianza familiar, un solo conductor.",
+        "description": "Un padre escanea el código de un conductor después de verlo dejar a su hijo adolescente sano y salvo."
+      },
+      "redEye": {
+        "title": "Incluso a medianoche, te esperan.",
+        "description": "El mismo conductor esperando en la llegada a las 11pm — la relación se mantiene a cualquier hora."
+      },
+      "commuter": {
+        "title": "Una relación constante, no una reserva ocasional.",
+        "description": "Una consultora que vuela cada lunes, siempre con el mismo conductor."
+      },
+      "seniorFamily": {
+        "title": "Tranquilidad a través de la familiaridad.",
+        "description": "La familia de una pasajera mayor la ve subir con el mismo conductor que ha usado durante meses."
+      },
+      "college": {
+        "title": "Confianza transferida, no solo un viaje reservado.",
+        "description": "Un padre ayuda a su hijo, que se va a la universidad, a unirse a la Tribu de un conductor local verificado antes de mudarse."
+      }
+    }
+  },
+  "Testimonials": {
+    "heading": "Querido por pasajeros y conductores",
+    "subheading": "Esto es lo que dicen los miembros de nuestra comunidad sobre su experiencia con Neighborly.",
+    "items": {
+      "sarah": {
+        "name": "Sarah Johnson",
+        "role": "Pasajera habitual",
+        "content": "Me siento mucho más segura sabiendo exactamente quién es mi conductor. ¡Formar parte de varias tribus me da mucha flexibilidad!"
+      },
+      "michael": {
+        "name": "Michael Chen",
+        "role": "Conductor",
+        "content": "Como conductor, me encanta tener el control sobre los viajes que acepto. El proceso de verificación de antecedentes me hizo sentir profesional."
+      },
+      "emily": {
+        "name": "Emily Rodriguez",
+        "role": "Miembro de la comunidad",
+        "content": "Neighborly ha transformado la forma en que me transporto. Es como tener amigos que te llevan a todas partes, porque de verdad lo son."
+      }
+    }
+  },
+  "CTA": {
+    "heading": "¿Listo para viajar con tu comunidad?",
+    "subheading": "Únete a miles de pasajeros y conductores que construyen comunidades más seguras y conectadas.",
+    "appStore": "Descargar en App Store",
+    "googlePlay": "Disponible en Google Play"
+  },
+  "Footer": {
+    "tagline": "Viajes compartidos basados en la confianza para comunidades conectadas.",
+    "product": "Producto",
+    "features": "Características",
+    "howItWorks": "Cómo funciona",
+    "pricing": "Precios",
+    "company": "Empresa",
+    "about": "Sobre nosotros",
+    "careers": "Empleo",
+    "contact": "Contacto",
+    "legal": "Legal",
+    "privacy": "Política de privacidad",
+    "terms": "Términos de servicio",
+    "safety": "Normas de seguridad",
+    "smsTerms": "Términos de SMS",
+    "copyright": "© 2026 Neighborly. Todos los derechos reservados."
+  }
+}
