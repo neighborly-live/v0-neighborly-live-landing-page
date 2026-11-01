@@ -1,5 +1,6 @@
 import { useTranslations } from "next-intl"
 import { Link } from "@/i18n/navigation"
+import { LanguageSwitcher } from "@/components/language-switcher"
 
 export function Footer() {
   const t = useTranslations("Footer")
@@ -96,7 +97,8 @@ export function Footer() {
 
         <div className="border-t border-gray-200 pt-8 flex flex-col sm:flex-row justify-between items-center gap-4">
           <p className="text-sm text-muted-foreground">{t("copyright")}</p>
-          <div className="flex gap-6">
+          <div className="flex items-center gap-6">
+            <LanguageSwitcher />
             <Link href="#" className="text-muted-foreground hover:text-foreground transition-colors">
               <span className="sr-only">Twitter</span>
               <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">

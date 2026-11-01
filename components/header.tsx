@@ -1,5 +1,6 @@
 import { useTranslations } from "next-intl"
 import { Link } from "@/i18n/navigation"
+import { LanguageSwitcher } from "@/components/language-switcher"
 
 export function Header() {
   const t = useTranslations("Header")
@@ -30,7 +31,10 @@ export function Header() {
             <Link href="/#testimonials" className="text-sm font-medium hover:text-primary transition-colors">
               {t("testimonials")}
             </Link>
+            <LanguageSwitcher />
           </nav>
+
+          <LanguageSwitcher className="md:hidden" />
         </div>
       </div>
     </header>
