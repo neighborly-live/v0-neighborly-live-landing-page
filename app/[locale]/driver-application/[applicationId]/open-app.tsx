@@ -1,12 +1,14 @@
 "use client"
 
 import { useEffect } from "react"
+import { useTranslations } from "next-intl"
 
 export function OpenDriverApplication({
   applicationId,
 }: {
   applicationId: string
 }) {
+  const t = useTranslations("DriverApplication")
   const appUrl = `neighborlyy://driver-application/${applicationId}`
 
   useEffect(() => {
@@ -16,16 +18,13 @@ export function OpenDriverApplication({
   return (
     <main className="min-h-screen flex items-center justify-center bg-background px-4">
       <section className="max-w-md w-full text-center space-y-6">
-        <h1 className="text-2xl font-semibold">Open Neighborly</h1>
-        <p className="text-muted-foreground">
-          Continue in the Neighborly app to upload the requested driving license
-          and finish your application.
-        </p>
+        <h1 className="text-2xl font-semibold">{t("title")}</h1>
+        <p className="text-muted-foreground">{t("body")}</p>
         <a
           href={appUrl}
           className="inline-flex items-center justify-center rounded-md bg-foreground text-background px-6 py-3 font-semibold"
         >
-          Open Neighborly
+          {t("button")}
         </a>
       </section>
     </main>

@@ -1,12 +1,13 @@
 "use client"
 
 import { useEffect, useState } from "react"
-import { useRouter } from "next/navigation"
-import Link from "next/link"
+import { useTranslations } from "next-intl"
+import { Link, useRouter } from "@/i18n/navigation"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 
 export default function WelcomePage() {
+  const t = useTranslations("Welcome")
   const [userName, setUserName] = useState("")
   const router = useRouter()
 
@@ -40,10 +41,10 @@ export default function WelcomePage() {
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
               </svg>
             </div>
-            <CardTitle className="text-3xl">Welcome to Neighborly{userName ? `, ${userName}` : ""}!</CardTitle>
-            <CardDescription className="text-base">
-              Your account has been successfully created. You're now part of the trusted ride-sharing community.
-            </CardDescription>
+            <CardTitle className="text-3xl">
+              {userName ? t("titleWithName", { name: userName }) : t("titleNoName")}
+            </CardTitle>
+            <CardDescription className="text-base">{t("description")}</CardDescription>
           </CardHeader>
           <CardContent className="space-y-6 pb-8">
             <div className="grid gap-4 text-left">
@@ -59,10 +60,8 @@ export default function WelcomePage() {
                   </svg>
                 </div>
                 <div>
-                  <h3 className="font-semibold mb-1">Download the App</h3>
-                  <p className="text-sm text-muted-foreground">
-                    Get the Neighborly mobile app to start booking rides or offering rides to your community.
-                  </p>
+                  <h3 className="font-semibold mb-1">{t("download.title")}</h3>
+                  <p className="text-sm text-muted-foreground">{t("download.body")}</p>
                 </div>
               </div>
 
@@ -78,10 +77,8 @@ export default function WelcomePage() {
                   </svg>
                 </div>
                 <div>
-                  <h3 className="font-semibold mb-1">Join a Tribe</h3>
-                  <p className="text-sm text-muted-foreground">
-                    Connect with verified drivers in your community using their QR codes.
-                  </p>
+                  <h3 className="font-semibold mb-1">{t("joinTribe.title")}</h3>
+                  <p className="text-sm text-muted-foreground">{t("joinTribe.body")}</p>
                 </div>
               </div>
 
@@ -97,20 +94,18 @@ export default function WelcomePage() {
                   </svg>
                 </div>
                 <div>
-                  <h3 className="font-semibold mb-1">Safe & Trusted</h3>
-                  <p className="text-sm text-muted-foreground">
-                    All drivers undergo background checks to ensure your safety and peace of mind.
-                  </p>
+                  <h3 className="font-semibold mb-1">{t("safe.title")}</h3>
+                  <p className="text-sm text-muted-foreground">{t("safe.body")}</p>
                 </div>
               </div>
             </div>
 
             <div className="flex flex-col sm:flex-row gap-3 pt-4">
               <Button asChild className="flex-1 h-11">
-                <Link href="/">Return to Home</Link>
+                <Link href="/">{t("returnHome")}</Link>
               </Button>
               <Button asChild variant="outline" className="flex-1 h-11 bg-transparent">
-                <Link href="/sign-in">Sign In</Link>
+                <Link href="/sign-in">{t("signIn")}</Link>
               </Button>
             </div>
           </CardContent>

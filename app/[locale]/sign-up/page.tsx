@@ -3,8 +3,8 @@
 import type React from "react"
 
 import { useState } from "react"
-import Link from "next/link"
-import { useRouter } from "next/navigation"
+import { useTranslations } from "next-intl"
+import { Link, useRouter } from "@/i18n/navigation"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
@@ -12,6 +12,7 @@ import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle }
 import { Checkbox } from "@/components/ui/checkbox"
 
 export default function SignUpPage() {
+  const t = useTranslations("SignUp")
   const [formData, setFormData] = useState({
     fullName: "",
     email: "",
@@ -28,12 +29,12 @@ export default function SignUpPage() {
     setError("")
 
     if (formData.password !== formData.confirmPassword) {
-      setError("Passwords do not match")
+      setError(t("errors.passwordMismatch"))
       return
     }
 
     if (!formData.agreeToTerms) {
-      setError("Please agree to the Terms of Service and Privacy Policy")
+      setError(t("errors.agreeTerms"))
       return
     }
 
@@ -56,7 +57,7 @@ export default function SignUpPage() {
       // Redirect to welcome page
       router.push("/welcome")
     } catch (err) {
-      setError("Something went wrong. Please try again.")
+      setError(t("errors.generic"))
       setIsLoading(false)
     }
   }
@@ -71,14 +72,14 @@ export default function SignUpPage() {
             </div>
             <span className="font-bold text-2xl">Neighborly</span>
           </Link>
-          <h1 className="text-3xl font-bold text-balance mt-4">Create your account</h1>
-          <p className="text-muted-foreground mt-2">Join the trusted ride-sharing community</p>
+          <h1 className="text-3xl font-bold text-balance mt-4">{t("title")}</h1>
+          <p className="text-muted-foreground mt-2">{t("subtitle")}</p>
         </div>
 
         <Card className="border-2">
           <CardHeader>
-            <CardTitle>Sign Up</CardTitle>
-            <CardDescription>Enter your information to create an account</CardDescription>
+            <CardTitle>{t("cardTitle")}</CardTitle>
+            <CardDescription>{t("cardDescription")}</CardDescription>
           </CardHeader>
           <CardContent>
             <form onSubmit={handleSubmit} className="space-y-4">
@@ -89,11 +90,11 @@ export default function SignUpPage() {
               )}
 
               <div className="space-y-2">
-                <Label htmlFor="fullName">Full Name</Label>
+                <Label htmlFor="fullName">{t("fullNameLabel")}</Label>
                 <Input
                   id="fullName"
                   type="text"
-                  placeholder="John Doe"
+                  placeholder={t("fullNamePlaceholder")}
                   value={formData.fullName}
                   onChange={(e) => setFormData({ ...formData, fullName: e.target.value })}
                   required
@@ -101,11 +102,11 @@ export default function SignUpPage() {
                 />
               </div>
               <div className="space-y-2">
-                <Label htmlFor="email">Email</Label>
+                <Label htmlFor="email">{t("emailLabel")}</Label>
                 <Input
                   id="email"
                   type="email"
-                  placeholder="you@example.com"
+                  placeholder={t("emailPlaceholder")}
                   value={formData.email}
                   onChange={(e) => setFormData({ ...formData, email: e.target.value })}
                   required
@@ -113,7 +114,7 @@ export default function SignUpPage() {
                 />
               </div>
               <div className="space-y-2">
-                <Label htmlFor="password">Password</Label>
+                <Label htmlFor="password">{t("passwordLabel")}</Label>
                 <Input
                   id="password"
                   type="password"
@@ -124,10 +125,10 @@ export default function SignUpPage() {
                   minLength={8}
                   className="h-11"
                 />
-                <p className="text-xs text-muted-foreground">Must be at least 8 characters</p>
+                <p className="text-xs text-muted-foreground">{t("passwordHint")}</p>
               </div>
               <div className="space-y-2">
-                <Label htmlFor="confirmPassword">Confirm Password</Label>
+                <Label htmlFor="confirmPassword">{t("confirmPasswordLabel")}</Label>
                 <Input
                   id="confirmPassword"
                   type="password"
@@ -147,18 +148,18 @@ export default function SignUpPage() {
                   className="mt-1"
                 />
                 <Label htmlFor="terms" className="text-sm leading-relaxed cursor-pointer">
-                  I agree to the{" "}
+                  {t("agreePrefix")}{" "}
                   <Link href="/terms" className="text-primary hover:underline">
-                    Terms of Service
+                    {t("termsOfService")}
                   </Link>{" "}
-                  and{" "}
+                  {t("and")}{" "}
                   <Link href="/privacy" className="text-primary hover:underline">
-                    Privacy Policy
+                    {t("privacyPolicy")}
                   </Link>
                 </Label>
               </div>
               <Button type="submit" className="w-full h-11" disabled={isLoading}>
-                {isLoading ? "Creating account..." : "Create Account"}
+                {isLoading ? t("submitting") : t("submit")}
               </Button>
             </form>
           </CardContent>
@@ -168,7 +169,7 @@ export default function SignUpPage() {
                 <span className="w-full border-t" />
               </div>
               <div className="relative flex justify-center text-xs uppercase">
-                <span className="bg-card px-2 text-muted-foreground">Or continue with</span>
+                <span className="bg-card px-2 text-muted-foreground">{t("orContinueWith")}</span>
               </div>
             </div>
             <div className="grid grid-cols-2 gap-3 w-full">
@@ -201,9 +202,9 @@ export default function SignUpPage() {
               </Button>
             </div>
             <p className="text-center text-sm text-muted-foreground">
-              Already have an account?{" "}
+              {t("alreadyHaveAccount")}{" "}
               <Link href="/sign-in" className="text-primary font-medium hover:underline">
-                Sign in
+                {t("signIn")}
               </Link>
             </p>
           </CardFooter>

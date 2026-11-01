@@ -3,6 +3,138 @@
     "title": "Neighborly - Viajes compartidos basados en la confianza",
     "description": "Conéctate con conductores de confianza en tu comunidad. Viajes seguros, flexibles y basados en relaciones reales."
   },
+  "SmsTerms": {
+    "backToHome": "← Volver al inicio",
+    "title": "Términos de SMS y Consentimiento",
+    "lastUpdated": "Última actualización: 10 de enero de 2025",
+    "s1": {
+      "heading": "Programa de Verificación por SMS de Neighborly",
+      "body": "Al proporcionar tu número de teléfono y aceptar, consientes recibir mensajes SMS de Neighborly para la verificación de tu cuenta, notificaciones de viajes y actualizaciones del servicio."
+    },
+    "s2": {
+      "heading": "Detalles del programa",
+      "nameLabel": "Nombre del programa",
+      "nameValue": "Programa de Verificación por SMS de Neighborly",
+      "frequencyLabel": "Frecuencia de los mensajes",
+      "frequencyBody": "La frecuencia de los mensajes varía; podrías recibir mensajes cada vez que te registras o inicias sesión en tu cuenta de Neighborly. También podrías recibir notificaciones de viajes al reservar o aceptar viajes.",
+      "ratesLabel": "Tarifas de mensajes y datos",
+      "ratesBody": "Pueden aplicar tarifas de mensajes y datos.",
+      "ratesNote": "Las tarifas estándar de mensajería de tu operador móvil aplicarán a todos los mensajes SMS enviados y recibidos."
+    },
+    "s3": {
+      "heading": "Cómo darte de baja",
+      "p1": "Puedes darte de baja de los mensajes SMS en cualquier momento respondiendo STOP a cualquier mensaje de Neighborly. Después de enviar el mensaje \"STOP\", te enviaremos un mensaje de confirmación de que has sido dado de baja.",
+      "p2": "Ten en cuenta que darte de baja de los mensajes SMS puede afectar tu capacidad para recibir notificaciones importantes de viajes y actualizaciones de cuenta."
+    },
+    "s4": {
+      "heading": "Atención al cliente",
+      "intro": "Para ayuda o preguntas sobre los mensajes SMS, puedes contactar al soporte de Neighborly:",
+      "emailLabel": "Correo electrónico:",
+      "phoneLabel": "Teléfono:",
+      "websiteLabel": "Sitio web:"
+    },
+    "s5": {
+      "heading": "Políticas relacionadas",
+      "intro": "Para más información sobre cómo manejamos tus datos y nuestros términos de servicio, revisa:",
+      "viewTerms": "Ver Términos y Condiciones",
+      "viewPrivacy": "Ver Política de Privacidad"
+    },
+    "s6": {
+      "heading": "Consentimiento",
+      "body": "Al proporcionar tu número de teléfono durante el registro o inicio de sesión, consientes expresamente recibir mensajes SMS de Neighborly como se describe anteriormente. Tu consentimiento no es un requisito para comprar bienes o servicios, y puedes darte de baja en cualquier momento respondiendo STOP."
+    }
+  },
+  "Welcome": {
+    "titleWithName": "¡Bienvenido(a) a Neighborly, {name}!",
+    "titleNoName": "¡Bienvenido(a) a Neighborly!",
+    "description": "Tu cuenta se ha creado correctamente. Ahora formas parte de la comunidad de viajes compartidos de confianza.",
+    "download": {
+      "title": "Descarga la app",
+      "body": "Obtén la app móvil de Neighborly para empezar a reservar viajes u ofrecer viajes a tu comunidad."
+    },
+    "joinTribe": {
+      "title": "Únete a una Tribu",
+      "body": "Conéctate con conductores verificados en tu comunidad usando sus códigos QR."
+    },
+    "safe": {
+      "title": "Seguro y confiable",
+      "body": "Todos los conductores pasan por verificación de antecedentes para garantizar tu seguridad y tranquilidad."
+    },
+    "returnHome": "Volver al inicio",
+    "signIn": "Iniciar sesión"
+  },
+  "ForgotPassword": {
+    "title": "Restablece tu contraseña",
+    "subtitleDefault": "Ingresa tu correo electrónico para recibir un enlace para restablecer tu contraseña",
+    "subtitleSubmitted": "Revisa tu correo electrónico para ver las instrucciones de restablecimiento",
+    "cardTitle": "Olvidé mi contraseña",
+    "cardDescDefault": "Te enviaremos un enlace para restablecer tu contraseña",
+    "cardDescSubmitted": "Te hemos enviado un correo electrónico con instrucciones para restablecer tu contraseña",
+    "emailLabel": "Correo electrónico",
+    "emailPlaceholder": "tu@correo.com",
+    "submit": "Enviar enlace de restablecimiento",
+    "submitting": "Enviando...",
+    "rememberPassword": "¿Recuerdas tu contraseña?",
+    "signIn": "Inicia sesión",
+    "submittedNotice": "Si existe una cuenta con {email}, recibirás un correo para restablecer tu contraseña en breve.",
+    "backToSignIn": "Volver a iniciar sesión",
+    "tryDifferentEmail": "Probar con otro correo electrónico"
+  },
+  "SignIn": {
+    "title": "Bienvenido(a) de nuevo",
+    "subtitle": "Inicia sesión en tu cuenta para continuar",
+    "cardTitle": "Iniciar sesión",
+    "cardDescription": "Ingresa tus credenciales para acceder a tu cuenta",
+    "errors": {
+      "noAccount": "No se encontró ninguna cuenta con este correo electrónico. Regístrate primero.",
+      "invalid": "Correo electrónico o contraseña inválidos",
+      "generic": "Algo salió mal. Inténtalo de nuevo."
+    },
+    "emailLabel": "Correo electrónico",
+    "passwordLabel": "Contraseña",
+    "forgotPassword": "¿Olvidaste tu contraseña?",
+    "submit": "Iniciar sesión",
+    "submitting": "Iniciando sesión...",
+    "orContinueWith": "O continúa con",
+    "noAccountText": "¿No tienes una cuenta?",
+    "signUp": "Regístrate",
+    "termsAgreement": "Al iniciar sesión, aceptas nuestros",
+    "termsOfService": "Términos de Servicio",
+    "and": "y",
+    "privacyPolicy": "Política de Privacidad"
+  },
+  "SignUp": {
+    "title": "Crea tu cuenta",
+    "subtitle": "Únete a la comunidad de viajes compartidos de confianza",
+    "cardTitle": "Registrarse",
+    "cardDescription": "Ingresa tu información para crear una cuenta",
+    "errors": {
+      "passwordMismatch": "Las contraseñas no coinciden",
+      "agreeTerms": "Por favor acepta los Términos de Servicio y la Política de Privacidad",
+      "generic": "Algo salió mal. Inténtalo de nuevo."
+    },
+    "fullNameLabel": "Nombre completo",
+    "fullNamePlaceholder": "Juan Pérez",
+    "emailLabel": "Correo electrónico",
+    "emailPlaceholder": "tu@correo.com",
+    "passwordLabel": "Contraseña",
+    "passwordHint": "Debe tener al menos 8 caracteres",
+    "confirmPasswordLabel": "Confirmar contraseña",
+    "agreePrefix": "Acepto los",
+    "termsOfService": "Términos de Servicio",
+    "and": "y la",
+    "privacyPolicy": "Política de Privacidad",
+    "submit": "Crear cuenta",
+    "submitting": "Creando cuenta...",
+    "orContinueWith": "O continúa con",
+    "alreadyHaveAccount": "¿Ya tienes una cuenta?",
+    "signIn": "Inicia sesión"
+  },
+  "DriverApplication": {
+    "title": "Abrir Neighborly",
+    "body": "Continúa en la app de Neighborly para subir la licencia de conducir solicitada y finalizar tu solicitud.",
+    "button": "Abrir Neighborly"
+  },
   "Terms": {
     "title": "Términos de Servicio",
     "lastUpdated": "Última actualización: octubre de 2026",

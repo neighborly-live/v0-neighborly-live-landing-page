@@ -3,14 +3,15 @@
 import type React from "react"
 
 import { useState } from "react"
-import Link from "next/link"
-import { useRouter } from "next/navigation"
+import { useTranslations } from "next-intl"
+import { Link, useRouter } from "@/i18n/navigation"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card"
 
 export default function SignInPage() {
+  const t = useTranslations("SignIn")
   const [email, setEmail] = useState("")
   const [password, setPassword] = useState("")
   const [isLoading, setIsLoading] = useState(false)
@@ -29,7 +30,7 @@ export default function SignInPage() {
       const userDataStr = localStorage.getItem("neighborly_user_data")
 
       if (!userDataStr) {
-        setError("No account found with this email. Please sign up first.")
+        setError(t("errors.noAccount"))
         setIsLoading(false)
         return
       }
@@ -38,16 +39,16 @@ export default function SignInPage() {
 
       // Simple validation - check if email matches
       if (userData.email !== email) {
-        setError("Invalid email or password")
+        setError(t("errors.invalid"))
         setIsLoading(false)
         return
       }
 
       localStorage.setItem("neighborly_auth_token", "authenticated")
 
-      window.location.href = "/"
+      router.push("/")
     } catch (err) {
-      setError("Something went wrong. Please try again.")
+      setError(t("errors.generic"))
       setIsLoading(false)
     }
   }
@@ -62,14 +63,14 @@ export default function SignInPage() {
             </div>
             <span className="font-bold text-2xl">Neighborly</span>
           </Link>
-          <h1 className="text-3xl font-bold text-balance mt-4">Welcome back</h1>
-          <p className="text-muted-foreground mt-2">Sign in to your account to continue</p>
+          <h1 className="text-3xl font-bold text-balance mt-4">{t("title")}</h1>
+          <p className="text-muted-foreground mt-2">{t("subtitle")}</p>
         </div>
 
         <Card className="border-2">
           <CardHeader>
-            <CardTitle>Sign In</CardTitle>
-            <CardDescription>Enter your credentials to access your account</CardDescription>
+            <CardTitle>{t("cardTitle")}</CardTitle>
+            <CardDescription>{t("cardDescription")}</CardDescription>
           </CardHeader>
           <CardContent>
             <form onSubmit={handleSubmit} className="space-y-4">
@@ -80,7 +81,7 @@ export default function SignInPage() {
               )}
 
               <div className="space-y-2">
-                <Label htmlFor="email">Email</Label>
+                <Label htmlFor="email">{t("emailLabel")}</Label>
                 <Input
                   id="email"
                   type="email"
@@ -93,9 +94,9 @@ export default function SignInPage() {
               </div>
               <div className="space-y-2">
                 <div className="flex items-center justify-between">
-                  <Label htmlFor="password">Password</Label>
+                  <Label htmlFor="password">{t("passwordLabel")}</Label>
                   <Link href="/forgot-password" className="text-sm text-primary hover:underline">
-                    Forgot password?
+                    {t("forgotPassword")}
                   </Link>
                 </div>
                 <Input
@@ -109,7 +110,7 @@ export default function SignInPage() {
                 />
               </div>
               <Button type="submit" className="w-full h-11" disabled={isLoading}>
-                {isLoading ? "Signing in..." : "Sign In"}
+                {isLoading ? t("submitting") : t("submit")}
               </Button>
             </form>
           </CardContent>
@@ -119,7 +120,7 @@ export default function SignInPage() {
                 <span className="w-full border-t" />
               </div>
               <div className="relative flex justify-center text-xs uppercase">
-                <span className="bg-card px-2 text-muted-foreground">Or continue with</span>
+                <span className="bg-card px-2 text-muted-foreground">{t("orContinueWith")}</span>
               </div>
             </div>
             <div className="grid grid-cols-2 gap-3 w-full">
@@ -152,22 +153,22 @@ export default function SignInPage() {
               </Button>
             </div>
             <p className="text-center text-sm text-muted-foreground">
-              Don't have an account?{" "}
+              {t("noAccountText")}{" "}
               <Link href="/sign-up" className="text-primary font-medium hover:underline">
-                Sign up
+                {t("signUp")}
               </Link>
             </p>
           </CardFooter>
         </Card>
 
         <p className="text-center text-xs text-muted-foreground mt-6">
-          By signing in, you agree to our{" "}
+          {t("termsAgreement")}{" "}
           <Link href="/terms" className="underline hover:text-foreground">
-            Terms of Service
+            {t("termsOfService")}
           </Link>{" "}
-          and{" "}
+          {t("and")}{" "}
           <Link href="/privacy" className="underline hover:text-foreground">
-            Privacy Policy
+            {t("privacyPolicy")}
           </Link>
         </p>
       </div>

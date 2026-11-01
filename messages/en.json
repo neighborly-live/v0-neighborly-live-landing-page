@@ -3,6 +3,138 @@
     "title": "Neighborly - Trust-Based Ride Sharing",
     "description": "Connect with trusted drivers in your community. Safe, flexible, and built on relationships."
   },
+  "SmsTerms": {
+    "backToHome": "← Back to Home",
+    "title": "SMS Terms & Opt-In",
+    "lastUpdated": "Last updated: January 10, 2025",
+    "s1": {
+      "heading": "Neighborly SMS Verification Program",
+      "body": "By providing your phone number and opting in, you agree to receive SMS messages from Neighborly for account verification, ride notifications, and service updates."
+    },
+    "s2": {
+      "heading": "Program Details",
+      "nameLabel": "Program Name",
+      "nameValue": "Neighborly SMS Verification Program",
+      "frequencyLabel": "Message Frequency",
+      "frequencyBody": "Message frequency varies; you may receive messages each time you sign up or log in to your Neighborly account. You may also receive ride notifications when booking or accepting rides.",
+      "ratesLabel": "Message and Data Rates",
+      "ratesBody": "Message and data rates may apply.",
+      "ratesNote": "Standard messaging rates from your mobile carrier will apply to all SMS messages sent and received."
+    },
+    "s3": {
+      "heading": "How to Opt Out",
+      "p1": "You can opt out of SMS messages at any time by replying STOP to any Neighborly message. After you send the message \"STOP\", we will send you a confirmation message that you have been unsubscribed.",
+      "p2": "Please note that opting out of SMS messages may affect your ability to receive important ride notifications and account updates."
+    },
+    "s4": {
+      "heading": "Customer Care",
+      "intro": "For help or questions about SMS messages, you can contact Neighborly support:",
+      "emailLabel": "Email:",
+      "phoneLabel": "Phone:",
+      "websiteLabel": "Website:"
+    },
+    "s5": {
+      "heading": "Related Policies",
+      "intro": "For more information about how we handle your data and our service terms, please review:",
+      "viewTerms": "View Terms & Conditions",
+      "viewPrivacy": "View Privacy Policy"
+    },
+    "s6": {
+      "heading": "Consent",
+      "body": "By providing your phone number during registration or login, you expressly consent to receive SMS messages from Neighborly as described above. Your consent is not required as a condition of purchasing any goods or services, and you may opt out at any time by replying STOP."
+    }
+  },
+  "Welcome": {
+    "titleWithName": "Welcome to Neighborly, {name}!",
+    "titleNoName": "Welcome to Neighborly!",
+    "description": "Your account has been successfully created. You're now part of the trusted ride-sharing community.",
+    "download": {
+      "title": "Download the App",
+      "body": "Get the Neighborly mobile app to start booking rides or offering rides to your community."
+    },
+    "joinTribe": {
+      "title": "Join a Tribe",
+      "body": "Connect with verified drivers in your community using their QR codes."
+    },
+    "safe": {
+      "title": "Safe & Trusted",
+      "body": "All drivers undergo background checks to ensure your safety and peace of mind."
+    },
+    "returnHome": "Return to Home",
+    "signIn": "Sign In"
+  },
+  "ForgotPassword": {
+    "title": "Reset your password",
+    "subtitleDefault": "Enter your email to receive a password reset link",
+    "subtitleSubmitted": "Check your email for reset instructions",
+    "cardTitle": "Forgot Password",
+    "cardDescDefault": "We'll send you a link to reset your password",
+    "cardDescSubmitted": "We've sent you an email with instructions to reset your password",
+    "emailLabel": "Email",
+    "emailPlaceholder": "you@example.com",
+    "submit": "Send Reset Link",
+    "submitting": "Sending...",
+    "rememberPassword": "Remember your password?",
+    "signIn": "Sign in",
+    "submittedNotice": "If an account exists for {email}, you will receive a password reset email shortly.",
+    "backToSignIn": "Back to Sign In",
+    "tryDifferentEmail": "Try a different email"
+  },
+  "SignIn": {
+    "title": "Welcome back",
+    "subtitle": "Sign in to your account to continue",
+    "cardTitle": "Sign In",
+    "cardDescription": "Enter your credentials to access your account",
+    "errors": {
+      "noAccount": "No account found with this email. Please sign up first.",
+      "invalid": "Invalid email or password",
+      "generic": "Something went wrong. Please try again."
+    },
+    "emailLabel": "Email",
+    "passwordLabel": "Password",
+    "forgotPassword": "Forgot password?",
+    "submit": "Sign In",
+    "submitting": "Signing in...",
+    "orContinueWith": "Or continue with",
+    "noAccountText": "Don't have an account?",
+    "signUp": "Sign up",
+    "termsAgreement": "By signing in, you agree to our",
+    "termsOfService": "Terms of Service",
+    "and": "and",
+    "privacyPolicy": "Privacy Policy"
+  },
+  "SignUp": {
+    "title": "Create your account",
+    "subtitle": "Join the trusted ride-sharing community",
+    "cardTitle": "Sign Up",
+    "cardDescription": "Enter your information to create an account",
+    "errors": {
+      "passwordMismatch": "Passwords do not match",
+      "agreeTerms": "Please agree to the Terms of Service and Privacy Policy",
+      "generic": "Something went wrong. Please try again."
+    },
+    "fullNameLabel": "Full Name",
+    "fullNamePlaceholder": "John Doe",
+    "emailLabel": "Email",
+    "emailPlaceholder": "you@example.com",
+    "passwordLabel": "Password",
+    "passwordHint": "Must be at least 8 characters",
+    "confirmPasswordLabel": "Confirm Password",
+    "agreePrefix": "I agree to the",
+    "termsOfService": "Terms of Service",
+    "and": "and",
+    "privacyPolicy": "Privacy Policy",
+    "submit": "Create Account",
+    "submitting": "Creating account...",
+    "orContinueWith": "Or continue with",
+    "alreadyHaveAccount": "Already have an account?",
+    "signIn": "Sign in"
+  },
+  "DriverApplication": {
+    "title": "Open Neighborly",
+    "body": "Continue in the Neighborly app to upload the requested driving license and finish your application.",
+    "button": "Open Neighborly"
+  },
   "Terms": {
     "title": "Terms of Service",
     "lastUpdated": "Last updated: October 2026",

@@ -3,13 +3,15 @@
 import type React from "react"
 
 import { useState } from "react"
-import Link from "next/link"
+import { useTranslations } from "next-intl"
+import { Link } from "@/i18n/navigation"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card"
 
 export default function ForgotPasswordPage() {
+  const t = useTranslations("ForgotPassword")
   const [email, setEmail] = useState("")
   const [isLoading, setIsLoading] = useState(false)
   const [isSubmitted, setIsSubmitted] = useState(false)
@@ -36,21 +38,17 @@ export default function ForgotPasswordPage() {
             </div>
             <span className="font-bold text-2xl">Neighborly</span>
           </Link>
-          <h1 className="text-3xl font-bold text-balance mt-4">Reset your password</h1>
+          <h1 className="text-3xl font-bold text-balance mt-4">{t("title")}</h1>
           <p className="text-muted-foreground mt-2">
-            {isSubmitted
-              ? "Check your email for reset instructions"
-              : "Enter your email to receive a password reset link"}
+            {isSubmitted ? t("subtitleSubmitted") : t("subtitleDefault")}
           </p>
         </div>
 
         <Card className="border-2">
           <CardHeader>
-            <CardTitle>Forgot Password</CardTitle>
+            <CardTitle>{t("cardTitle")}</CardTitle>
             <CardDescription>
-              {isSubmitted
-                ? "We've sent you an email with instructions to reset your password"
-                : "We'll send you a link to reset your password"}
+              {isSubmitted ? t("cardDescSubmitted") : t("cardDescDefault")}
             </CardDescription>
           </CardHeader>
           {!isSubmitted ? (
@@ -58,11 +56,11 @@ export default function ForgotPasswordPage() {
               <CardContent>
                 <form onSubmit={handleSubmit} className="space-y-4">
                   <div className="space-y-2">
-                    <Label htmlFor="email">Email</Label>
+                    <Label htmlFor="email">{t("emailLabel")}</Label>
                     <Input
                       id="email"
                       type="email"
-                      placeholder="you@example.com"
+                      placeholder={t("emailPlaceholder")}
                       value={email}
                       onChange={(e) => setEmail(e.target.value)}
                       required
@@ -70,15 +68,15 @@ export default function ForgotPasswordPage() {
                     />
                   </div>
                   <Button type="submit" className="w-full h-11" disabled={isLoading}>
-                    {isLoading ? "Sending..." : "Send Reset Link"}
+                    {isLoading ? t("submitting") : t("submit")}
                   </Button>
                 </form>
               </CardContent>
               <CardFooter>
                 <p className="text-center text-sm text-muted-foreground w-full">
-                  Remember your password?{" "}
+                  {t("rememberPassword")}{" "}
                   <Link href="/sign-in" className="text-primary font-medium hover:underline">
-                    Sign in
+                    {t("signIn")}
                   </Link>
                 </p>
               </CardFooter>
@@ -86,18 +84,16 @@ export default function ForgotPasswordPage() {
           ) : (
             <CardFooter className="flex flex-col gap-4">
               <div className="w-full p-4 bg-accent/10 border border-accent/20 rounded-lg">
-                <p className="text-sm text-center">
-                  If an account exists for <strong>{email}</strong>, you will receive a password reset email shortly.
-                </p>
+                <p className="text-sm text-center">{t("submittedNotice", { email })}</p>
               </div>
               <Button asChild className="w-full h-11">
-                <Link href="/sign-in">Back to Sign In</Link>
+                <Link href="/sign-in">{t("backToSignIn")}</Link>
               </Button>
               <button
                 onClick={() => setIsSubmitted(false)}
                 className="text-sm text-muted-foreground hover:text-foreground transition-colors"
               >
-                Try a different email
+                {t("tryDifferentEmail")}
               </button>
             </CardFooter>
           )}
