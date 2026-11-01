@@ -170,8 +170,11 @@
         "i2": "Verificación de antecedentes aprobada satisfactoriamente",
         "i3": "Comprobante de seguro del vehículo que cumpla con los requisitos mínimos",
         "i4": "Vehículo que cumpla con los estándares de seguridad y condición",
-        "i5": "Cumplimiento de todas las regulaciones locales de transporte"
-      }
+        "i5": "Cumplimiento de todas las regulaciones locales de transporte",
+        "i6": "La cuenta de conductor y el vehículo deben estar radicados en Estados Unidos — la participación como conductor no está disponible actualmente en otros países"
+      },
+      "s3Heading": "3.3 Disponibilidad geográfica",
+      "s3Body": "La participación como conductor en Neighborly actualmente solo está disponible en Estados Unidos. No existe ninguna restricción de país o número telefónico para los pasajeros — puedes usar Neighborly como pasajero sin importar tu país de residencia o número de teléfono, incluso mientras viajas, aunque la disponibilidad de viajes en cualquier ubicación depende de que haya conductores de Neighborly cerca."
     },
     "s4": {
       "heading": "4. Sistema de tribus",

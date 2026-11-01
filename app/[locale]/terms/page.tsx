@@ -63,7 +63,11 @@ function TermsContent() {
               <li>{t("s3.s2Items.i3")}</li>
               <li>{t("s3.s2Items.i4")}</li>
               <li>{t("s3.s2Items.i5")}</li>
+              <li>{t("s3.s2Items.i6")}</li>
             </ul>
+
+            <h3 className="text-xl font-semibold mb-3 mt-6">{t("s3.s3Heading")}</h3>
+            <p className="text-foreground/90 leading-relaxed">{t("s3.s3Body")}</p>
           </section>
 
           <section>

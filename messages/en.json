@@ -170,8 +170,11 @@
         "i2": "Successful completion of background check",
         "i3": "Proof of vehicle insurance meeting minimum requirements",
         "i4": "Vehicle meeting safety and condition standards",
-        "i5": "Compliance with all local transportation regulations"
-      }
+        "i5": "Compliance with all local transportation regulations",
+        "i6": "Driver account and vehicle must be based in the United States — driver participation is not currently available in other countries"
+      },
+      "s3Heading": "3.3 Geographic Availability",
+      "s3Body": "Driver participation on Neighborly is currently available only in the United States. There is no country or phone-number restriction on riders — you may use Neighborly as a rider regardless of your country of residence or phone number, including while traveling, though ride availability in any given location depends on there being Neighborly drivers nearby."
     },
     "s4": {
       "heading": "4. Tribe System",
